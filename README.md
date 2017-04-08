@@ -3,9 +3,9 @@ Test project for PlugIn.Media
 
 If you execute the code and you try to take some pictures, you can see the problem after 20 pictures. The number of pictures depend from the device:
 
-iPad Air 32
-iPhone 6s 86
-iPad Pro 9" 34
+- iPad Air 32
+- iPhone 6s 86
+- iPad Pro 9" 34
 
 ## Bug?
 

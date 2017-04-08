@@ -12,11 +12,11 @@ iPad Pro 9" 34
 Version Number of Plugin: Plugin.Media 2.6.2
 Device Tested On: iPadAir, iPhone 6s, iPad Pro
 
-Expected Behavior
+###Expected Behavior
 
 Take unlimited number of pictures
 
-Actual Behavior
+###Actual Behavior
 
 After taking some pictures, the app crashes and no error is reported in the debugger.
 

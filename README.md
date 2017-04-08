@@ -21,3 +21,6 @@ Take unlimited number of pictures
 After taking some pictures, the app crashes and no error is reported in the debugger.
 
 No output is stored, or processes or allocated in any way. Still, the app crashes and the debug sessions closes without any messages after taking 30 pictures. At this stage I am confident that the issue lies within the plugin for this platform.
+
+## Update
+First update: 8 April 2017

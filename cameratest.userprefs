@@ -1,20 +1,22 @@
-﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cameratest/BaseGalleryImage.cs">
+﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinCameraTest Status">
     <Files>
-      <File FileName="cameratest/Helpers/CameraHelpers.cs" Line="5" Column="1" />
+      <File FileName="cameratest/Helpers/CameraHelpers.cs" Line="29" Column="3" />
       <File FileName="cameratest/cameratestPage.xaml" Line="1" Column="1" />
       <File FileName="cameratest/cameratestPage.xaml.cs" Line="14" Column="3" />
-      <File FileName="cameratest/cameratestViewModel.cs" Line="6" Column="34" />
-      <File FileName="cameratest/BaseGalleryImage.cs" Line="158" Column="37" />
+      <File FileName="cameratest/cameratestViewModel.cs" Line="6" Column="2" />
+      <File FileName="cameratest/BaseGalleryImage.cs" Line="173" Column="3" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="XamarinCameraTest Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/enricorossini/Projects/XamarinCameraTest/cameratest/BaseGalleryImage.cs" relfile="cameratest/BaseGalleryImage.cs" line="158" column="1" />
+      <Breakpoint file="/Users/enricorossini/Projects/XamarinCameraTest/iOS/AppDelegate.cs" relfile="iOS/AppDelegate.cs" line="29" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.0a5b08ac44143b4a8ac89698cba113cf27f64156" />
+  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38A78B9C-93A5-401F-BB06-FF2FAFA80CB5" />
 </Properties>

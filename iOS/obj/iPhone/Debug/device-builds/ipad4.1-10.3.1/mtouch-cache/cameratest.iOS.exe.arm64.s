@@ -153,7 +153,7 @@ Lme_0:
 	.align 4
 	.no_dead_strip cameratest_iOS_Application_Main_string__
 cameratest_iOS_Application_Main_string__:
-.file 1 "/Users/enricorossini/Projects/XamarinCameraTest/iOS/Main.cs"
+.file 1 "/Users/enricorossini/Projects/cameratest/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -249,8 +249,8 @@ Lme_2:
 	.align 4
 	.no_dead_strip cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/enricorossini/Projects/XamarinCameraTest/iOS/AppDelegate.cs"
-.loc 2 14 0 prologue_end
+.file 2 "/Users/enricorossini/Projects/cameratest/iOS/AppDelegate.cs"
+.loc 2 15 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -277,13 +277,13 @@ ldr x16, [x16, #152]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 15 0
+.loc 2 16 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_3
-.loc 2 17 0
+.loc 2 18 0
 .word 0xf9401bb1
 .word 0xf9408631
 .word 0xb4000051
@@ -307,7 +307,7 @@ bl _p_5
 .word 0xf9403ba1
 .word 0xaa1803e0
 bl _p_6
-.loc 2 19 0
+.loc 2 20 0
 .word 0xf9401bb1
 .word 0xf940de31
 .word 0xb4000051
@@ -334,7 +334,7 @@ bl _p_7
 .word 0xf9402fa0
 .word 0xf9002ba0
 .word 0xaa0003f7
-.loc 2 20 0
+.loc 2 21 0
 .word 0xf9401bb1
 .word 0xf9414631
 .word 0xb4000051
@@ -352,6 +352,102 @@ bl _p_7
 
 Lme_3:
 .text
+	.align 4
+	.no_dead_strip cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication
+cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication:
+.loc 2 24 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x16, [x16, #168]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 27 0
+.word 0xf94013b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_8
+.loc 2 28 0
+.word 0xf94013b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x0, [x16, #176]
+.word 0xf9002ba0
+.word 0xf94013b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+bl _p_9
+.loc 2 29 0
+.word 0xf94013b1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x0, [x16, #184]
+bl _p_4
+.word 0xf90023a0
+bl _p_10
+.word 0xf94013b1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x0, [x16, #192]
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xf94027a1
+
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x15, [x16, #200]
+bl _p_11
+.loc 2 30 0
+.word 0xf94013b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_4:
+.text
 	.align 3
 jit_code_end:
 
@@ -364,6 +460,7 @@ bl cameratest_iOS_Application__ctor
 bl cameratest_iOS_Application_Main_string__
 bl cameratest_iOS_AppDelegate__ctor
 bl cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+bl cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication
 bl method_addresses
 method_addresses_end:
 
@@ -383,7 +480,7 @@ unbox_trampoline_addresses:
 unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,19,12,31,0
-	.byte 68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13
+	.byte 68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,13,12,31,0,68,14,96,157,12,158,11,68,13,29
 
 .text
 	.align 4
@@ -394,61 +491,93 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #216]
 br x16
-.word 263
+.word 293
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #224]
 br x16
-.word 268
+.word 298
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_3:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #232]
 br x16
-.word 273
+.word 303
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
 plt__jit_icall_ves_icall_object_new_fast:
 _p_4:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #240]
 br x16
-.word 278
+.word 308
 	.no_dead_strip plt_cameratest_App__ctor
 plt_cameratest_App__ctor:
 _p_5:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #248]
 br x16
-.word 306
+.word 336
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_6:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #256]
 br x16
-.word 311
+.word 341
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_7:
 adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
 add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #264]
 br x16
-.word 316
+.word 346
+	.no_dead_strip plt_System_GC_Collect
+plt_System_GC_Collect:
+_p_8:
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 351
+	.no_dead_strip plt_System_Console_WriteLine_string
+plt_System_Console_WriteLine_string:
+_p_9:
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 356
+	.no_dead_strip plt_cameratest_MemoryMessage__ctor
+plt_cameratest_MemoryMessage__ctor:
+_p_10:
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 361
+	.no_dead_strip plt_Xamarin_Forms_MessagingCenter_Send_cameratest_MemoryMessage_cameratest_MemoryMessage_string
+plt_Xamarin_Forms_MessagingCenter_Send_cameratest_MemoryMessage_cameratest_MemoryMessage_string:
+_p_11:
+adrp x16, mono_aot_cameratest_iOS_got@PAGE+0
+add x16, x16, mono_aot_cameratest_iOS_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 366
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_cameratest_iOS_got, 232
+.lcomm mono_aot_cameratest_iOS_got, 304
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -471,7 +600,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "FD688997-2729-466C-9FA8-404DED070764"
+	.asciz "B49C9831-1C12-4679-8814-0905570A79CE"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -548,13 +677,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 21,232,8,5,70,923871743,0,863
-	.long 128,8,8,10,0,15,1632,760
-	.long 336,184,0,280,312,232,0,176
+	.long 26,304,12,6,70,923871743,0,1041
+	.long 128,8,8,10,0,15,1896,848
+	.long 344,184,0,288,320,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 146,72,83,123,141,225,205,64,131,168,41,37,82,68,172,175
+	.byte 216,129,255,140,41,186,205,12,42,79,202,157,54,204,237,162
 	.globl _mono_aot_module_cameratest_iOS_info
 	.align 3
 _mono_aot_module_cameratest_iOS_info:
@@ -5313,7 +5442,7 @@ LDIFF_SYM842=LTDIE_134 - Ldebug_info_start
 	.asciz "cameratest.iOS.AppDelegate:FinishedLaunching"
 	.asciz "cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,14
+	.byte 2,15
 	.quad cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_3
 
@@ -5355,6 +5484,45 @@ LDIFF_SYM848=Lme_3 - cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplic
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13
 	.align 3
 Lfde3_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "cameratest.iOS.AppDelegate:ReceiveMemoryWarning"
+	.asciz "cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication"
+
+	.byte 2,24
+	.quad cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication
+	.quad Lme_4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM849=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
+	.byte 2,141,16,3
+	.asciz "application"
+
+LDIFF_SYM850=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM850
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM851=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM851
+Lfde4_start:
+
+	.long 0
+	.align 3
+	.quad cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication
+
+LDIFF_SYM852=Lme_4 - cameratest_iOS_AppDelegate_ReceiveMemoryWarning_UIKit_UIApplication
+	.long LDIFF_SYM852
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde4_end:
 
 .section __DWARF, __debug_info,regular,debug
 

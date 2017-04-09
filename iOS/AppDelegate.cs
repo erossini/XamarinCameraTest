@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace cameratest.iOS
 {
@@ -17,6 +18,15 @@ namespace cameratest.iOS
 			LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);
+		}
+
+		public override void ReceiveMemoryWarning(UIApplication application)
+		{
+			// this (MemoryWarningsHandler) is a helper that I created 
+			// to capture more info when a memory warning is raised. Things like (nav Stack, running time, etc)
+			GC.Collect();
+			Console.WriteLine("Memory Warning!");
+			MessagingCenter.Send(new MemoryMessage(), "MemoryMessage");
 		}
 	}
 }

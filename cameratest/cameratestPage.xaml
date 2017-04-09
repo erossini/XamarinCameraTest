@@ -5,6 +5,11 @@
 			<Label Text="Camera test" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
 			<Button Text="Add photo" Command="{Binding CameraCommand}" IsEnabled="{Binding CanTakeNewPhoto}" />
 			<Button Text="Pick photo" Command="{Binding PickCommand}" IsEnabled="{Binding CanTakeNewPhoto}" />
+			<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+				<Label Text="Number of picture taken: " HorizontalTextAlignment="Center" />
+				<Label Text="{Binding NumberOfImages}" HorizontalTextAlignment="Center" />
+			</StackLayout>
+			<Label Text="{Binding Message}" HorizontalTextAlignment="Center" TextColor="Red" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

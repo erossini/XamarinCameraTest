@@ -2,9 +2,9 @@
 # [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe \
 	--cache \
-	/Users/enricorossini/Projects/XamarinCameraTest/iOS/obj/iPhone/Debug/device-builds/ipad4.1-10.3.1/mtouch-cache \
+	/Users/enricorossini/Projects/cameratest/iOS/obj/iPhone/Debug/device-builds/ipad4.1-10.3.1/mtouch-cache \
 	--dev \
-	/Users/enricorossini/Projects/XamarinCameraTest/iOS/bin/iPhone/Debug/device-builds/ipad4.1-10.3.1/cameratest.iOS.app \
+	/Users/enricorossini/Projects/cameratest/iOS/bin/iPhone/Debug/device-builds/ipad4.1-10.3.1/cameratest.iOS.app \
 	--executable \
 	cameratest.iOS \
 	--fastdev \
@@ -21,7 +21,7 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=arm64 \
 	--symbollist \
-	/Users/enricorossini/Projects/XamarinCameraTest/iOS/obj/iPhone/Debug/device-builds/ipad4.1-10.3.1/mtouch-symbols.list \
+	/Users/enricorossini/Projects/cameratest/iOS/obj/iPhone/Debug/device-builds/ipad4.1-10.3.1/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -32,21 +32,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Refractored.MvvmHelpers.1.2.2/lib/portable-net45+wp80+win8+wpa81/MvvmHelpers.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Refractored.MvvmHelpers.1.2.2/lib/portable-net45+wp80+win8+wpa81/MvvmHelpers.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/cameratest/bin/Debug/cameratest.dll \
+	/Users/enricorossini/Projects/cameratest/cameratest/bin/Debug/cameratest.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -312,21 +312,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Refractored.MvvmHelpers.1.2.2/lib/portable-net45+wp80+win8+wpa81/MvvmHelpers.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/packages/Refractored.MvvmHelpers.1.2.2/lib/portable-net45+wp80+win8+wpa81/MvvmHelpers.dll \
+	/Users/enricorossini/Projects/cameratest/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll \
 	-r \
-	/Users/enricorossini/Projects/XamarinCameraTest/cameratest/bin/Debug/cameratest.dll \
+	/Users/enricorossini/Projects/cameratest/cameratest/bin/Debug/cameratest.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/enricorossini/Projects/XamarinCameraTest/iOS/bin/iPhone/Debug/cameratest.iOS.exe \
+	/Users/enricorossini/Projects/cameratest/iOS/bin/iPhone/Debug/cameratest.iOS.exe \

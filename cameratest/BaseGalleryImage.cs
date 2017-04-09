@@ -183,15 +183,16 @@ namespace cameratest
 			{
 				ChangeMediaButtonEnableState(enable: false);
 
-				CameraHelpers ch = new CameraHelpers();
-				GalleryImage gi = await ch.TakePictureFromCamera();
-				if (gi != null)
+				using (CameraHelpers ch = new CameraHelpers())
 				{
-					//for (int i = 0; i < 10; i++)
-					_images.Add(gi);
-				}
-				ch.Dispose();
-				ch = null;
+					GalleryImage gi = await ch.TakePictureFromCamera();
+					if (gi != null)
+					{
+						_images.Add(gi);
+					}
+					ch.Dispose();
+				};
+				NumberOfImages += 1;
 
 				IsLoading = false;
 				IsBusy = false;
@@ -211,7 +212,7 @@ namespace cameratest
 		/// <param name="enable">If set to <c>true</c> enable.</param>
 		private void ChangeMediaButtonEnableState(bool enable)
 		{
-			NumberOfImages = _images.Count;
+			//NumberOfImages = _images.Count;
 			CanTakeNewPhoto = enable;
 		}
 
@@ -273,6 +274,8 @@ namespace cameratest
 			{
 				ChangeMediaButtonEnableState(enable: false);
 
+				//await Task.Factory.StartNew(async () =>
+				//{
 				CameraHelpers ch = new CameraHelpers();
 				GalleryImage gi = await ch.PickPicture();
 				if (gi != null)
@@ -281,6 +284,8 @@ namespace cameratest
 				}
 				ch.Dispose();
 				ch = null;
+				NumberOfImages += 1;
+				//});
 			}
 			catch (Exception ex)
 			{

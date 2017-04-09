@@ -30161,7 +30161,7 @@ _mono_aot_file_info:
 	.long 272,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 37,94,157,18,9,195,111,82,148,188,79,10,166,201,126,105
+	.byte 127,63,214,68,118,23,59,144,147,125,100,120,193,42,247,220
 	.globl _mono_aot_module_MvvmHelpers_info
 	.align 3
 _mono_aot_module_MvvmHelpers_info:

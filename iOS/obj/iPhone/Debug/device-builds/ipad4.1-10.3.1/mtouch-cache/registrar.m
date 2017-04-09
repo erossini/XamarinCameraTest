@@ -6334,6 +6334,7 @@ exception_handling:;
 @interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UIApplicationDelegate> {
 }
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1;
+	-(void) applicationDidReceiveMemoryWarning:(UIApplication *)p0;
 	-(id) init;
 @end
 @implementation AppDelegate { } 
@@ -6342,6 +6343,12 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_7 (self, _cmd, &managed_method, p0, p1, 0x400);
+	}
+
+	-(void) applicationDidReceiveMemoryWarning:(UIApplication *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, 0x500);
 	}
 
 	-(id) init

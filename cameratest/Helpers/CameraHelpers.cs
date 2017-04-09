@@ -9,6 +9,7 @@ namespace cameratest
 	{
 		private Guid _id;
 		private bool initialized = false;
+		private Task feedTask;
 
 		// prevent that a user invoked Take and Pick Photo event at same time
 		private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1, 1);
@@ -25,6 +26,7 @@ namespace cameratest
 
 		public void Dispose()
 		{
+			GC.SuppressFinalize(this);
 		}
 
 		public async Task InitMedia()
@@ -40,7 +42,7 @@ namespace cameratest
 			if (!initialized)
 				await InitMedia();
 
-			await _semaphoreSlim.WaitAsync();
+			//await _semaphoreSlim.WaitAsync();
 			try
 			{
 				if (CrossMedia.Current.IsCameraAvailable && CrossMedia.Current.IsTakePhotoSupported)
@@ -62,7 +64,7 @@ namespace cameratest
 			}
 			finally
 			{
-				_semaphoreSlim.Release();
+				//_semaphoreSlim.Release();
 			}
 
 			return rtn;

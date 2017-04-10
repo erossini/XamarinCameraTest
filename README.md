@@ -33,3 +33,4 @@ If I try to use `Xamarin Profiler` is also crashed with this error:
 
 ## Updates
 First update: 8 April 2017
+10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers`

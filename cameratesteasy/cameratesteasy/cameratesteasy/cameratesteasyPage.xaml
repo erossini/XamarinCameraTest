@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:cameratesteasy" x:Class="cameratesteasy.cameratesteasyPage">
+	<StackLayout VerticalOptions="CenterAndExpand">
+		<Label Text="Camera test" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontSize="Large" />
+		<Button Text="Add photo no MVVM" Clicked="StartCameraTapped" />
+		<Button Text="Pick photo no MVVM" Clicked="StartCameraTakeTapped" />
+		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Number of picture taken: " HorizontalTextAlignment="Center" />
+				<Label x:Name="CountLabel" Text="0" HorizontalTextAlignment="Center" />
+			</StackLayout>
+		</StackLayout>
+		<Label Text="{Binding Message}" HorizontalTextAlignment="Center" TextColor="Red" />
+	</StackLayout>
+</ContentPage>

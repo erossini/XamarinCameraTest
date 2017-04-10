@@ -1,8 +1,24 @@
 ﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cameratestViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cameratestPage.xaml.cs">
     <Files>
-      <File FileName="cameratestViewModel.cs" Line="11" Column="30" />
+      <File FileName="cameratestPage.xaml" Line="1" Column="1" />
+      <File FileName="cameratestPage.xaml.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cameratest" expanded="True">
+            <Node name="cameratest" expanded="True">
+              <Node name="Packages" expanded="True">
+                <Node name="Refractored.MvvmHelpers" selected="True" />
+              </Node>
+              <Node name="cameratestPage.xaml" expanded="True" />
+            </Node>
+            <Node name="cameratest.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -10,5 +26,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4B83DCB5-2015-41B7-90B8-E0C5E1C25178" />
+  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38A78B9C-93A5-401F-BB06-FF2FAFA80CB5" />
 </Properties>

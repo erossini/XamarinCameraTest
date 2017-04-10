@@ -1,22 +1,20 @@
 ﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinCameraTest Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cameratest/Helpers/CameraHelpers.cs">
     <Files>
       <File FileName="cameratest/Helpers/CameraHelpers.cs" Line="29" Column="3" />
-      <File FileName="cameratest/cameratestPage.xaml" Line="1" Column="1" />
       <File FileName="cameratest/cameratestPage.xaml.cs" Line="14" Column="3" />
       <File FileName="cameratest/cameratestViewModel.cs" Line="6" Column="2" />
       <File FileName="cameratest/BaseGalleryImage.cs" Line="173" Column="3" />
       <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="XamarinCameraTest Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/enricorossini/Projects/XamarinCameraTest/iOS/AppDelegate.cs" relfile="iOS/AppDelegate.cs" line="29" column="1" />
+      <Breakpoint file="/Users/Enrico/Documents/XamarinCameraTest/iOS/AppDelegate.cs" relfile="iOS/AppDelegate.cs" line="29" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38A78B9C-93A5-401F-BB06-FF2FAFA80CB5" />
+  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4B83DCB5-2015-41B7-90B8-E0C5E1C25178" />
 </Properties>

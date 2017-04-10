@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cameratestViewModel.cs">
+    <Files>
+      <File FileName="cameratestViewModel.cs" Line="11" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.cameratest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4B83DCB5-2015-41B7-90B8-E0C5E1C25178" />
+</Properties>

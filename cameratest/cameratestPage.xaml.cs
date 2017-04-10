@@ -21,8 +21,8 @@ namespace cameratest
 		{
 			if (vm == null)
 			{
-				//vm = new cameratestViewModel();
-				//BindingContext = vm;
+				vm = new cameratestViewModel();
+				BindingContext = vm;
 			}
 		}
 

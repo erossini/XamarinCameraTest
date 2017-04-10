@@ -1,29 +1,26 @@
 ﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cameratest/cameratestPage.xaml.cs">
     <Files>
       <File FileName="cameratest/Helpers/CameraHelpers.cs" Line="1" Column="1" />
-      <File FileName="cameratest/cameratestPage.xaml" Line="10" Column="38" />
-      <File FileName="cameratest/cameratestPage.xaml.cs" Line="31" Column="12" />
+      <File FileName="cameratest/cameratestPage.xaml" Line="1" Column="1" />
+      <File FileName="cameratest/cameratestPage.xaml.cs" Line="21" Column="4" />
       <File FileName="cameratest/cameratestViewModel.cs" Line="16" Column="3" />
       <File FileName="cameratest/BaseGalleryImage.cs" Line="186" Column="40" />
-      <File FileName="XamarinCameraTest Status" />
-      <File FileName="cameratest/project.json" Line="3" Column="29" />
-      <File FileName="iOS/AppDelegate.cs" Line="22" Column="3" />
+      <File FileName="cameratest/project.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cameratest" expanded="True">
             <Node name="cameratest" expanded="True">
-              <Node name="References" expanded="True" />
               <Node name="Packages" expanded="True" />
               <Node name="Helpers" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="cameratestPage.xaml" expanded="True" />
+              <Node name="cameratestPage.xaml" expanded="True">
+                <Node name="cameratestPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="cameratest.iOS" expanded="True">
-              <Node name="Packages" expanded="True" />
-            </Node>
+            <Node name="cameratest.iOS" expanded="True" />
             <Node name="cameratesteasy.iOS" expanded="True" />
           </Node>
         </State>

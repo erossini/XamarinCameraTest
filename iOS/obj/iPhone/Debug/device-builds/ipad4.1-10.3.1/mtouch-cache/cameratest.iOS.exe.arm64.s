@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 13:52:20 EDT 2017)"
+	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 00:37:47 EDT 2017)"
 	.asciz "cameratest.iOS.exe"
 	.asciz ""
 
@@ -153,7 +153,7 @@ Lme_0:
 	.align 4
 	.no_dead_strip cameratest_iOS_Application_Main_string__
 cameratest_iOS_Application_Main_string__:
-.file 1 "/Users/enricorossini/Projects/cameratest/iOS/Main.cs"
+.file 1 "/Users/Enrico/Documents/XamarinCameraTest/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -249,7 +249,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 cameratest_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/enricorossini/Projects/cameratest/iOS/AppDelegate.cs"
+.file 2 "/Users/Enrico/Documents/XamarinCameraTest/iOS/AppDelegate.cs"
 .loc 2 15 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
@@ -600,7 +600,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "B49C9831-1C12-4679-8814-0905570A79CE"
+	.asciz "23F19EA5-0104-47E5-9A7A-2C3603EADC43"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -683,7 +683,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 216,129,255,140,41,186,205,12,42,79,202,157,54,204,237,162
+	.byte 133,67,138,244,180,135,116,212,177,19,174,61,133,121,63,161
 	.globl _mono_aot_module_cameratest_iOS_info
 	.align 3
 _mono_aot_module_cameratest_iOS_info:

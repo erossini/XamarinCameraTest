@@ -38,15 +38,15 @@
 @class __NSObject_Disposer;
 @class __UILongPressGestureRecognizer;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
+@class __UIPanGestureRecognizer;
 @class UIKit_UIBarButtonItem_Callback;
 @class __UIRotationGestureRecognizer;
 @class __UITapGestureRecognizer;
-@class __UIPanGestureRecognizer;
 @class __UIPinchGestureRecognizer;
 @class __UISwipeGestureRecognizer;
 @class __UIScreenEdgePanGestureRecognizer;
-@class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UIPopoverController__UIPopoverControllerDelegate;
+@class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;

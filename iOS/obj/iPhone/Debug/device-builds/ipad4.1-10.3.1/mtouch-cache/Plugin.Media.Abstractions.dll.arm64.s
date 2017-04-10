@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 13:52:20 EDT 2017)"
+	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 00:37:47 EDT 2017)"
 	.asciz "Plugin.Media.Abstractions.dll"
 	.asciz ""
 
@@ -4381,7 +4381,7 @@ LDIFF_SYM3=ut_end - ut_69
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/corlib/System/Nullable.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/corlib/System/Nullable.cs"
 .loc 2 94 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -4511,9 +4511,9 @@ ldr x16, [x16, #640]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28b6100
+.word 0xd28bb9e0
 .word 0xf2a00020
-.word 0xd28b6100
+.word 0xd28bb9e0
 .word 0xf2a00020
 bl _p_34
 .word 0xaa0003e1
@@ -5901,8 +5901,8 @@ add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
 .word 988
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_20:
 adrp x16, mono_aot_Plugin_Media_Abstractions_got@PAGE+0
 add x16, x16, mono_aot_Plugin_Media_Abstractions_got@PAGEOFF
@@ -6194,7 +6194,7 @@ _mono_aot_file_info:
 	.long 136,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 207,39,177,163,43,114,222,249,172,62,31,4,142,197,57,81
+	.byte 255,193,97,17,26,83,200,181,146,151,85,27,102,130,131,217
 	.globl _mono_aot_module_Plugin_Media_Abstractions_info
 	.align 3
 _mono_aot_module_Plugin_Media_Abstractions_info:

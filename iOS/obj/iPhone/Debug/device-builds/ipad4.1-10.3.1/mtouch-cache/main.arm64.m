@@ -69,7 +69,7 @@ void xamarin_setup_impl ()
 	xamarin_arch_name = "arm64";
 	xamarin_marshal_objectivec_exception_mode = MarshalObjectiveCExceptionModeDisable;
 	xamarin_debug_mode = TRUE;
-	setenv ("MONO_GC_PARAMS", "nursery-size=512k,major=marksweep", 1);
+	setenv ("MONO_GC_PARAMS", "nursery-size=512k", 1);
 }
 
 int main (int argc, char **argv)

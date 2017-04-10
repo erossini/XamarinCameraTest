@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 13:52:20 EDT 2017)"
+	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 00:37:47 EDT 2017)"
 	.asciz "cameratest.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip cameratest_App__ctor
 cameratest_App__ctor:
-.file 1 "/Users/enricorossini/Projects/cameratest/cameratest/App.xaml.cs"
+.file 1 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/App.xaml.cs"
 .loc 1 7 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -332,7 +332,7 @@ Lme_3:
 	.align 4
 	.no_dead_strip cameratest_App_InitializeComponent
 cameratest_App_InitializeComponent:
-.file 2 "/Users/enricorossini/Projects/cameratest/cameratest/obj/Debug/cameratest.App.xaml.g.cs"
+.file 2 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/obj/Debug/cameratest.App.xaml.g.cs"
 .loc 2 18 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -401,7 +401,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip cameratest_cameratestPage__ctor
 cameratest_cameratestPage__ctor:
-.file 3 "/Users/enricorossini/Projects/cameratest/cameratest/cameratestPage.xaml.cs"
+.file 3 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/cameratestPage.xaml.cs"
 .loc 3 7 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -593,7 +593,7 @@ Lme_6:
 	.align 4
 	.no_dead_strip cameratest_cameratestPage_InitializeComponent
 cameratest_cameratestPage_InitializeComponent:
-.file 4 "/Users/enricorossini/Projects/cameratest/cameratest/obj/Debug/cameratest.cameratestPage.xaml.g.cs"
+.file 4 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/obj/Debug/cameratest.cameratestPage.xaml.g.cs"
 .loc 4 18 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -662,7 +662,7 @@ Lme_7:
 	.align 4
 	.no_dead_strip cameratest_CameraHelpers__ctor
 cameratest_CameraHelpers__ctor:
-.file 5 "/Users/enricorossini/Projects/cameratest/cameratest/Helpers/CameraHelpers.cs"
+.file 5 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/Helpers/CameraHelpers.cs"
 .loc 5 11 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -2948,7 +2948,7 @@ Lme_13:
 	.align 4
 	.no_dead_strip cameratest_GalleryImage__ctor
 cameratest_GalleryImage__ctor:
-.file 7 "/Users/enricorossini/Projects/cameratest/cameratest/GalleryImage.cs"
+.file 7 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/GalleryImage.cs"
 .loc 7 8 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -3736,7 +3736,7 @@ Lme_24:
 	.align 4
 	.no_dead_strip cameratest_cameratestViewModel__ctor
 cameratest_cameratestViewModel__ctor:
-.file 8 "/Users/enricorossini/Projects/cameratest/cameratest/cameratestViewModel.cs"
+.file 8 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/cameratestViewModel.cs"
 .loc 8 32 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -4091,7 +4091,7 @@ Lme_28:
 	.align 4
 	.no_dead_strip cameratest_BaseGalleryImage__ctor
 cameratest_BaseGalleryImage__ctor:
-.file 9 "/Users/enricorossini/Projects/cameratest/cameratest/BaseGalleryImage.cs"
+.file 9 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/BaseGalleryImage.cs"
 .loc 9 20 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -8411,7 +8411,7 @@ Lme_4f:
 	.align 4
 	.no_dead_strip cameratest_MemoryMessage__ctor
 cameratest_MemoryMessage__ctor:
-.file 10 "/Users/enricorossini/Projects/cameratest/cameratest/MemoryMessage.cs"
+.file 10 "/Users/Enrico/Documents/XamarinCameraTest/cameratest/MemoryMessage.cs"
 .loc 10 6 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -11324,7 +11324,7 @@ Lme_5d:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor
 System_Threading_Tasks_Task_1_TResult_BOOL__ctor:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
 .loc 11 91 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -11789,15 +11789,15 @@ bl _p_120
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf9003ba0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -11888,15 +11888,15 @@ bl _p_120
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf90043a0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -11968,9 +11968,9 @@ ldr x16, [x16, #1664]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2878f40
+.word 0xd287e820
 .word 0xf2a00020
-.word 0xd2878f40
+.word 0xd287e820
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -11992,9 +11992,9 @@ bl _p_32
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -12018,15 +12018,15 @@ bl _p_32
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf90043a0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -13522,9 +13522,9 @@ ldr x16, [x16, #1792]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879400
+.word 0xd287ece0
 .word 0xf2a00020
-.word 0xd2879400
+.word 0xd287ece0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -13546,9 +13546,9 @@ bl _p_32
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -13801,7 +13801,7 @@ Lme_78:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
 System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
 .loc 12 93 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -14692,9 +14692,9 @@ bl _p_12
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879e00
+.word 0xd287f6e0
 .word 0xf2a00020
-.word 0xd2879e00
+.word 0xd287f6e0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -14728,9 +14728,9 @@ bl _p_32
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd287a100
+.word 0xd287f9e0
 .word 0xf2a00020
-.word 0xd287a100
+.word 0xd287f9e0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -14905,20 +14905,27 @@ bl _p_196
 .word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2800020
+bl _p_197
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9445a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
 .word 0x340015e0
 .word 0xf94033a0
-bl _p_197
+bl _p_198
 bl _p_3
 .word 0xf9007fa0
 .word 0xf94033a0
-bl _p_198
+bl _p_199
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xf9007ba0
 .word 0xd63f0020
 .word 0xf94027b1
-.word 0xf9447e31
+.word 0xf9449a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
@@ -14932,7 +14939,7 @@ bl _p_12
 .word 0xf94077a0
 .loc 12 844 0
 .word 0xf94027b1
-.word 0xf944b231
+.word 0xf944ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -14943,9 +14950,9 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #1896]
 bl _p_10
 .word 0xf90073a0
-bl _p_199
+bl _p_200
 .word 0xf94027b1
-.word 0xf944e231
+.word 0xf944fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa0
@@ -14957,7 +14964,7 @@ bl _p_12
 .word 0xf9406ba0
 .loc 12 847 0
 .word 0xf94027b1
-.word 0xf9450e31
+.word 0xf9452a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -14979,13 +14986,13 @@ bl _p_10
 bl _p_12
 .word 0xf94063a0
 .word 0xf94033a0
-bl _p_200
+bl _p_201
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9001401
 .word 0xf9005ba0
 .word 0xf94033a0
-bl _p_201
+bl _p_202
 .word 0xf9405ba1
 .word 0xf9002020
 
@@ -15005,7 +15012,7 @@ ldr x0, [x16, #1912]
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf94027b1
-.word 0xf945c631
+.word 0xf945e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
@@ -15013,7 +15020,7 @@ ldr x0, [x16, #1912]
 .word 0xaa0003f4
 .loc 12 852 0
 .word 0xf94027b1
-.word 0xf945e231
+.word 0xf945fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -15033,7 +15040,7 @@ ldr x15, [x16, #1920]
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9462e31
+.word 0xf9464a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -15042,11 +15049,11 @@ ldr x15, [x16, #1920]
 .word 0xf9400aa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_202
+bl _p_203
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9466231
+.word 0xf9467e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -15057,7 +15064,7 @@ bl _p_202
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9468a31
+.word 0xf946a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -15072,10 +15079,10 @@ bl _p_202
 .word 0xf9005ba0
 .word 0xd2800000
 .word 0xf94033a0
-bl _p_203
+bl _p_204
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_204
+bl _p_205
 .word 0xaa0003e5
 .word 0xf94053a1
 .word 0xf94057a2
@@ -15085,7 +15092,7 @@ bl _p_204
 .word 0xd2800004
 .word 0xd63f00a0
 .word 0xf94027b1
-.word 0xf946fa31
+.word 0xf9471631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000039
@@ -15095,7 +15102,7 @@ bl _p_204
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9471e31
+.word 0xf9473a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -15117,13 +15124,13 @@ bl _p_10
 bl _p_12
 .word 0xf9405fa0
 .word 0xf94033a0
-bl _p_205
+bl _p_206
 .word 0xaa0003e1
 .word 0xf9405ba0
 .word 0xf9001401
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_206
+bl _p_207
 .word 0xf94057a1
 .word 0xf9002020
 
@@ -15143,7 +15150,7 @@ ldr x0, [x16, #1912]
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf947d631
+.word 0xf947f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -15154,7 +15161,7 @@ ldr x0, [x16, #1912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf947fe31
+.word 0xf9481a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000072
@@ -15162,14 +15169,14 @@ ldr x0, [x16, #1912]
 .word 0xf94043a0
 .loc 12 869 0
 .word 0xf94027b1
-.word 0xf9481a31
+.word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_180
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9483631
+.word 0xf9485231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -15180,7 +15187,7 @@ bl _p_180
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9485e31
+.word 0xf9487a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -15192,7 +15199,7 @@ bl _p_181
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9488e31
+.word 0xf948aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
@@ -15206,7 +15213,7 @@ bl _p_182
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf948c231
+.word 0xf948de31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -15221,7 +15228,7 @@ ldr x0, [x16, #1864]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf948f631
+.word 0xf9491231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -15232,7 +15239,7 @@ bl _p_181
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9492231
+.word 0xf9493e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -15243,7 +15250,7 @@ bl _p_183
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9494a31
+.word 0xf9496631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -15261,36 +15268,36 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_207
+bl _p_208
 .word 0xaa0003e2
 .word 0xf94053a0
 .word 0xf94057a1
 .word 0xd63f0040
 .word 0x53001c00
 .word 0xf94027b1
-.word 0xf949ae31
+.word 0xf949ca31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 12 879 0
 .word 0xf94027b1
-.word 0xf949be31
+.word 0xf949da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
-bl _p_208
+bl _p_209
 .loc 12 882 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf949e631
+.word 0xf94a0231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9401000
 .word 0xf94027b1
-.word 0xf949fe31
+.word 0xf94a1a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94157b4
@@ -15828,7 +15835,7 @@ bl _p_116
 .word 0xf9003ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_209
+bl _p_210
 .word 0xaa0003e9
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -15922,7 +15929,7 @@ ldr x16, [x16, #1976]
 .word 0xf90043a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_210
+bl _p_211
 .word 0xaa0003e7
 .word 0xf94043a0
 .word 0xf94047a1
@@ -16018,15 +16025,15 @@ bl _p_120
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf9003ba0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -16117,15 +16124,15 @@ bl _p_120
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf90043a0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -16197,9 +16204,9 @@ ldr x16, [x16, #2000]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2878f40
+.word 0xd287e820
 .word 0xf2a00020
-.word 0xd2878f40
+.word 0xd287e820
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -16221,9 +16228,9 @@ bl _p_32
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -16247,15 +16254,15 @@ bl _p_32
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf90043a0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -16294,11 +16301,11 @@ bl _p_32
 .word 0xf9402ba0
 .word 0xf90057a0
 .word 0xf9403fa0
-bl _p_211
+bl _p_212
 bl _p_3
 .word 0xf90047a0
 .word 0xf9403fa0
-bl _p_212
+bl _p_213
 .word 0xaa0003e9
 .word 0xf94047a0
 .word 0xf9404ba2
@@ -16555,7 +16562,7 @@ ldr x16, [x16, #2016]
 .word 0xf9002fa0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_213
+bl _p_214
 .word 0xaa0003e2
 .word 0xf9402fa0
 .word 0xaa1a03e1
@@ -16654,7 +16661,7 @@ bl _p_131
 .word 0xf90027a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_214
+bl _p_215
 .word 0xaa0003e2
 .word 0xf94027a0
 .word 0xd2800021
@@ -17002,7 +17009,7 @@ ldr x16, [x16, #2056]
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_215
+bl _p_216
 .word 0xaa0003e3
 .word 0xf9402fa0
 .word 0x910103a1
@@ -17156,12 +17163,12 @@ ldr x16, [x16, #2072]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_216
+bl _p_217
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
 .word 0xf94017a0
-bl _p_217
+bl _p_218
 .word 0xf9400000
 .word 0xf9400bb1
 .word 0xf9408231
@@ -17207,7 +17214,7 @@ ldr x16, [x16, #2080]
 .word 0xf90023a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_218
+bl _p_219
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94023a0
@@ -17256,7 +17263,7 @@ bl _p_147
 .word 0xf90027a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_219
+bl _p_220
 .word 0xaa0003e2
 .word 0xf9400441
 .word 0xf94027a0
@@ -17347,11 +17354,11 @@ ldr x16, [x16, #2088]
 .word 0xf9002ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_220
+bl _p_221
 .word 0xf90033a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_221
+bl _p_222
 .word 0xaa0003e2
 .word 0xf9402ba0
 .word 0xf9402fa1
@@ -17419,11 +17426,11 @@ ldr x16, [x16, #2096]
 .word 0xf9003ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_222
+bl _p_223
 .word 0xf90047a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_223
+bl _p_224
 .word 0xaa0003e3
 .word 0xf9403ba0
 .word 0xf9403fa1
@@ -17519,7 +17526,7 @@ bl _p_153
 .word 0xf9002fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_224
+bl _p_225
 .word 0xaa0003e6
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -17601,7 +17608,7 @@ ldr x16, [x16, #2112]
 .word 0xf90037a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_225
+bl _p_226
 .word 0xaa0003e6
 .word 0xf94037a0
 .word 0xf9403ba1
@@ -17682,7 +17689,7 @@ ldr x16, [x16, #2120]
 .word 0xf9003fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_226
+bl _p_227
 .word 0xaa0003e6
 .word 0xf9403fa0
 .word 0xf94043a1
@@ -17751,9 +17758,9 @@ ldr x16, [x16, #2128]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879400
+.word 0xd287ece0
 .word 0xf2a00020
-.word 0xd2879400
+.word 0xd287ece0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -17775,9 +17782,9 @@ bl _p_32
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -17814,12 +17821,12 @@ bl _p_157
 .word 0xf90057a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_227
+bl _p_228
 bl _p_3
 .word 0xf90047a0
 .word 0xf9401ba0
 .word 0xf9400000
-bl _p_228
+bl _p_229
 .word 0xaa0003e7
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -17900,11 +17907,11 @@ ldr x16, [x16, #2136]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_229
+bl _p_230
 bl _p_3
 .word 0xf90027a0
 .word 0xf94017a0
-bl _p_230
+bl _p_231
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xf90023a0
@@ -17914,7 +17921,7 @@ bl _p_230
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_231
+bl _p_232
 .word 0xf94023a1
 .word 0xf9000001
 .loc 11 87 0
@@ -17924,22 +17931,22 @@ bl _p_231
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xf94017a0
-bl _p_232
+bl _p_233
 bl _p_165
 .word 0xf9001fa0
 .word 0xf94017a0
-bl _p_233
+bl _p_234
 bl _p_3
 .word 0xf9401fa2
 .word 0xf9001ba0
 .word 0xd2800001
-bl _p_234
+bl _p_235
 .word 0xf9400bb1
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-bl _p_231
+bl _p_232
 .word 0xf9401ba1
 .word 0x91002000
 .word 0xf9000001
@@ -18000,7 +18007,7 @@ bl _p_168
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-bl _p_235
+bl _p_236
 .word 0xf90023a0
 .word 0xb4000139
 .word 0xf9400320
@@ -18069,7 +18076,7 @@ ldr x16, [x16, #2152]
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_236
+bl _p_237
 .word 0xaa0003e5
 .word 0xf94023a0
 .word 0x9100c3a1
@@ -18258,17 +18265,17 @@ bl _p_116
 .word 0xf9004ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_237
+bl _p_238
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_237
+bl _p_238
 .word 0xf9004fa0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_238
+bl _p_239
 .word 0xaa0003e7
 .word 0xf9403fa0
 .word 0xf94043a1
@@ -18488,7 +18495,7 @@ bl _p_175
 .word 0xf9403ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_239
+bl _p_240
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
@@ -18496,7 +18503,7 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_240
+bl _p_241
 .word 0xaa0003e3
 .word 0xf94083a0
 .word 0xf94087a2
@@ -18534,7 +18541,7 @@ bl _p_240
 .word 0xf94037a0
 .word 0xf9008ba0
 .word 0xf94033a0
-bl _p_239
+bl _p_240
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
@@ -18542,7 +18549,7 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_241
+bl _p_242
 .word 0xaa0003e2
 .word 0xf94087a0
 .word 0xf9408ba1
@@ -18710,7 +18717,7 @@ bl _p_183
 .word 0xb9807ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_239
+bl _p_240
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
@@ -18718,7 +18725,7 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_242
+bl _p_243
 .word 0xaa0003e2
 .word 0xf94083a0
 .word 0xf94087a1
@@ -18743,7 +18750,7 @@ bl _p_242
 .word 0xb9807ba0
 .word 0xf90087a0
 .word 0xf94033a0
-bl _p_239
+bl _p_240
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
@@ -18751,7 +18758,7 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90083a0
 .word 0xf94033a0
-bl _p_243
+bl _p_244
 .word 0xaa0003e2
 .word 0xf94083a0
 .word 0xf94087a1
@@ -18815,11 +18822,11 @@ ldr x16, [x16, #2184]
 .word 0xf9003ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_244
+bl _p_245
 .word 0xf9003fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_245
+bl _p_246
 .word 0xaa0003e5
 .word 0xf9402fa0
 .word 0xf94033a1
@@ -18876,11 +18883,11 @@ ldr x16, [x16, #2192]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_246
+bl _p_247
 bl _p_3
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_247
+bl _p_248
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9005ba0
@@ -18920,9 +18927,9 @@ bl _p_12
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879e00
+.word 0xd287f6e0
 .word 0xf2a00020
-.word 0xd2879e00
+.word 0xd287f6e0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -18956,9 +18963,9 @@ bl _p_32
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd287a100
+.word 0xd287f9e0
 .word 0xf2a00020
-.word 0xd287a100
+.word 0xd287f9e0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -18992,16 +18999,16 @@ bl _p_190
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xf94033a0
-bl _p_248
+bl _p_249
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
 .word 0xf94033a0
-bl _p_248
+bl _p_249
 bl _p_3
 .word 0xf90063a0
 .word 0xf94033a0
-bl _p_249
+bl _p_250
 .word 0xaa0003e3
 .word 0xf94063a0
 .word 0xf9005fa0
@@ -19133,20 +19140,27 @@ bl _p_196
 .word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2800020
+bl _p_197
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9445a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
 .word 0x340015e0
 .word 0xf94033a0
-bl _p_250
+bl _p_251
 bl _p_3
 .word 0xf9007fa0
 .word 0xf94033a0
-bl _p_251
+bl _p_252
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xf9007ba0
 .word 0xd63f0020
 .word 0xf94027b1
-.word 0xf9447e31
+.word 0xf9449a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
@@ -19160,7 +19174,7 @@ bl _p_12
 .word 0xf94077a0
 .loc 12 844 0
 .word 0xf94027b1
-.word 0xf944b231
+.word 0xf944ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -19171,9 +19185,9 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #1896]
 bl _p_10
 .word 0xf90073a0
-bl _p_199
+bl _p_200
 .word 0xf94027b1
-.word 0xf944e231
+.word 0xf944fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa0
@@ -19185,7 +19199,7 @@ bl _p_12
 .word 0xf9406ba0
 .loc 12 847 0
 .word 0xf94027b1
-.word 0xf9450e31
+.word 0xf9452a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -19207,13 +19221,13 @@ bl _p_10
 bl _p_12
 .word 0xf94063a0
 .word 0xf94033a0
-bl _p_252
+bl _p_253
 .word 0xaa0003e1
 .word 0xf9405fa0
 .word 0xf9001401
 .word 0xf9005ba0
 .word 0xf94033a0
-bl _p_253
+bl _p_254
 .word 0xf9405ba1
 .word 0xf9002020
 
@@ -19233,7 +19247,7 @@ ldr x0, [x16, #1912]
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf94027b1
-.word 0xf945c631
+.word 0xf945e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
@@ -19241,7 +19255,7 @@ ldr x0, [x16, #1912]
 .word 0xaa0003f4
 .loc 12 852 0
 .word 0xf94027b1
-.word 0xf945e231
+.word 0xf945fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -19261,7 +19275,7 @@ ldr x15, [x16, #1920]
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9462e31
+.word 0xf9464a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -19270,11 +19284,11 @@ ldr x15, [x16, #1920]
 .word 0xf9400aa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_202
+bl _p_203
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9466231
+.word 0xf9467e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -19285,7 +19299,7 @@ bl _p_202
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9468a31
+.word 0xf946a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -19300,10 +19314,10 @@ bl _p_202
 .word 0xf9005ba0
 .word 0xd2800000
 .word 0xf94033a0
-bl _p_254
+bl _p_255
 .word 0xf9005fa0
 .word 0xf94033a0
-bl _p_255
+bl _p_256
 .word 0xaa0003e5
 .word 0xf94053a1
 .word 0xf94057a2
@@ -19313,7 +19327,7 @@ bl _p_255
 .word 0xd2800004
 .word 0xd63f00a0
 .word 0xf94027b1
-.word 0xf946fa31
+.word 0xf9471631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000039
@@ -19323,7 +19337,7 @@ bl _p_255
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9471e31
+.word 0xf9473a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -19345,13 +19359,13 @@ bl _p_10
 bl _p_12
 .word 0xf9405fa0
 .word 0xf94033a0
-bl _p_256
+bl _p_257
 .word 0xaa0003e1
 .word 0xf9405ba0
 .word 0xf9001401
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_257
+bl _p_258
 .word 0xf94057a1
 .word 0xf9002020
 
@@ -19371,7 +19385,7 @@ ldr x0, [x16, #1912]
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf947d631
+.word 0xf947f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -19382,7 +19396,7 @@ ldr x0, [x16, #1912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf947fe31
+.word 0xf9481a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000072
@@ -19390,14 +19404,14 @@ ldr x0, [x16, #1912]
 .word 0xf94043a0
 .loc 12 869 0
 .word 0xf94027b1
-.word 0xf9481a31
+.word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_180
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9483631
+.word 0xf9485231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -19408,7 +19422,7 @@ bl _p_180
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9485e31
+.word 0xf9487a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -19420,7 +19434,7 @@ bl _p_181
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9488e31
+.word 0xf948aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
@@ -19434,7 +19448,7 @@ bl _p_182
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf948c231
+.word 0xf948de31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -19449,7 +19463,7 @@ ldr x0, [x16, #1864]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf948f631
+.word 0xf9491231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -19460,7 +19474,7 @@ bl _p_181
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9492231
+.word 0xf9493e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -19471,7 +19485,7 @@ bl _p_183
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9494a31
+.word 0xf9496631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -19481,7 +19495,7 @@ bl _p_183
 .word 0xb9807ba0
 .word 0xf90057a0
 .word 0xf94033a0
-bl _p_248
+bl _p_249
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
@@ -19489,36 +19503,36 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_258
+bl _p_259
 .word 0xaa0003e2
 .word 0xf94053a0
 .word 0xf94057a1
 .word 0xd63f0040
 .word 0x53001c00
 .word 0xf94027b1
-.word 0xf949ae31
+.word 0xf949ca31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 12 879 0
 .word 0xf94027b1
-.word 0xf949be31
+.word 0xf949da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
-bl _p_208
+bl _p_209
 .loc 12 882 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf949e631
+.word 0xf94a0231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9401000
 .word 0xf94027b1
-.word 0xf949fe31
+.word 0xf94a1a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94157b4
@@ -19786,7 +19800,7 @@ b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Thread
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
 System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs"
 .loc 13 317 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -19921,7 +19935,7 @@ ldr x16, [x16, #2224]
 .word 0xd2800002
 .word 0xd2800022
 .word 0xd2800003
-bl _p_259
+bl _p_260
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -19970,7 +19984,7 @@ ldr x16, [x16, #2232]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_260
+bl _p_261
 .loc 13 358 0
 .word 0xf9400fb1
 .word 0xf9407631
@@ -19980,7 +19994,7 @@ bl _p_260
 .word 0xf9400340
 .word 0xf9002ba0
 .word 0xf9401ba0
-bl _p_261
+bl _p_262
 .word 0x3980ac10
 .word 0xb5000050
 bl _p_144
@@ -19988,7 +20002,7 @@ bl _p_144
 .word 0xf940001e
 .word 0xf90027a0
 .word 0xf9401ba0
-bl _p_262
+bl _p_263
 .word 0xaa0003e1
 .word 0xf94027a0
 .word 0xd63f0020
@@ -21428,7 +21442,7 @@ Lme_ab:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/corlib/System/Array.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 14 78 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
@@ -21462,11 +21476,11 @@ ldr x16, [x16, #2288]
 .word 0x910103a0
 .word 0xf9003fa0
 .word 0xf9402ba0
-bl _p_263
+bl _p_264
 .word 0xaa0003ef
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_264
+bl _p_265
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -21478,7 +21492,7 @@ bl _p_264
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_263
+bl _p_264
 bl _p_3
 .word 0x9100c3a1
 .word 0xf90033a0
@@ -21534,9 +21548,9 @@ ldr x16, [x16, #2296]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -21583,9 +21597,9 @@ ldr x16, [x16, #2304]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -21657,12 +21671,12 @@ ldr x16, [x16, #2312]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29e8840
+.word 0xd29ec240
 .word 0xf2a00020
-.word 0xd29e8840
+.word 0xd29ec240
 .word 0xf2a00020
 bl _p_121
-bl _p_265
+bl _p_266
 .word 0xf90053a0
 .word 0xf94023b1
 .word 0xf940e231
@@ -21705,7 +21719,7 @@ bl _p_32
 .word 0xaa1703e0
 .word 0x910183a0
 .word 0xf9402fa0
-bl _p_266
+bl _p_267
 .word 0x93407ee0
 .word 0xd37df000
 .word 0x8b000320
@@ -21927,7 +21941,7 @@ bl _p_32
 .word 0xaa1a03e0
 .word 0x910103a0
 .word 0xf9401fa0
-bl _p_267
+bl _p_268
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -22078,7 +22092,7 @@ ldr x0, [x16, #2344]
 .word 0xaa1a03e0
 .word 0x910123a0
 .word 0xf94037a0
-bl _p_268
+bl _p_269
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -22617,7 +22631,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2376]
 bl _p_10
 .word 0xf90037a0
-bl _p_269
+bl _p_270
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -22672,7 +22686,7 @@ ldr x2, [x16, #2408]
 .word 0xf9000822
 .word 0xd2800002
 .word 0x3901803f
-bl _p_270
+bl _p_271
 .word 0xf94017b1
 .word 0xf9413231
 .word 0xb4000051
@@ -22691,7 +22705,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2416]
 .word 0xd2875ce1
 .word 0xd2875ce1
-bl _p_271
+bl _p_272
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
@@ -22746,7 +22760,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2432]
 bl _p_10
 .word 0xf90053a0
-bl _p_272
+bl _p_273
 .word 0xf9401bb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -22848,7 +22862,7 @@ ldr x3, [x16, #2488]
 .word 0xf9000843
 .word 0xd2800003
 .word 0x3901805f
-bl _p_273
+bl _p_274
 .word 0xf9401bb1
 .word 0xf941e231
 .word 0xb4000051
@@ -22867,7 +22881,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2416]
 .word 0xd2875ce1
 .word 0xd2875ce1
-bl _p_271
+bl _p_272
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
@@ -22894,7 +22908,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2416]
 .word 0xd2875ee1
 .word 0xd2875ee1
-bl _p_271
+bl _p_272
 .word 0xaa0003e1
 .word 0xd2800b40
 .word 0xf2a04000
@@ -22994,7 +23008,7 @@ ldr x0, [x16, #2512]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_274
+bl _p_275
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9411231
@@ -23017,7 +23031,7 @@ bl _p_274
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_275
+bl _p_276
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf9416631
@@ -23026,7 +23040,7 @@ bl _p_275
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_276
+bl _p_277
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -23364,7 +23378,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #1104]
 .word 0xaa1a03e0
-bl _p_277
+bl _p_278
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23769,7 +23783,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #1104]
 .word 0xaa1a03e0
-bl _p_277
+bl _p_278
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23871,7 +23885,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #1104]
 .word 0xaa1a03e0
-bl _p_277
+bl _p_278
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -23942,7 +23956,7 @@ b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_cameratest_Camera
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_cameratest_CameraHelpers__InitMediac__async0_cameratest_CameraHelpers__InitMediac__async0_
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_cameratest_CameraHelpers__InitMediac__async0_cameratest_CameraHelpers__InitMediac__async0_:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 16 304 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
@@ -24054,7 +24068,7 @@ bl _p_32
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_278
+bl _p_279
 .loc 16 315 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -24065,7 +24079,7 @@ bl _p_278
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102a3a0
-bl _p_279
+bl _p_280
 .loc 16 316 0
 .word 0xf94013b1
 .word 0xf941e631
@@ -24073,7 +24087,7 @@ bl _p_279
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_280
+bl _p_281
 .word 0xf94013b1
 .word 0xf9420231
 .word 0xb4000051
@@ -24087,7 +24101,7 @@ bl _p_280
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102a3a0
-bl _p_281
+bl _p_282
 .word 0xf94013b1
 .word 0xf9423631
 .word 0xb4000051
@@ -24155,7 +24169,7 @@ ldr x16, [x16, #2584]
 .word 0xd2800901
 .word 0xaa1a03e1
 .word 0xd2800902
-bl _p_282
+bl _p_283
 .word 0x14000013
 .word 0xf94017b1
 .word 0xf9400231
@@ -24215,7 +24229,7 @@ bl _p_32
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_278
+bl _p_279
 .loc 16 470 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -24226,7 +24240,7 @@ bl _p_278
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910303a0
-bl _p_279
+bl _p_280
 .loc 16 471 0
 .word 0xf94013b1
 .word 0xf941c631
@@ -24234,7 +24248,7 @@ bl _p_279
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_283
+bl _p_284
 .word 0xf94013b1
 .word 0xf941e231
 .word 0xb4000051
@@ -24248,7 +24262,7 @@ bl _p_283
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910303a0
-bl _p_281
+bl _p_282
 .word 0xf94013b1
 .word 0xf9421631
 .word 0xb4000051
@@ -24316,7 +24330,7 @@ ldr x16, [x16, #2592]
 .word 0xd2800901
 .word 0xaa1a03e1
 .word 0xd2800902
-bl _p_282
+bl _p_283
 .word 0x14000013
 .word 0xf94017b1
 .word 0xf9400231
@@ -24376,7 +24390,7 @@ bl _p_32
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_278
+bl _p_279
 .loc 16 470 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -24387,7 +24401,7 @@ bl _p_278
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910303a0
-bl _p_279
+bl _p_280
 .loc 16 471 0
 .word 0xf94013b1
 .word 0xf941c631
@@ -24395,7 +24409,7 @@ bl _p_279
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_284
+bl _p_285
 .word 0xf94013b1
 .word 0xf941e231
 .word 0xb4000051
@@ -24409,7 +24423,7 @@ bl _p_284
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910303a0
-bl _p_281
+bl _p_282
 .word 0xf94013b1
 .word 0xf9421631
 .word 0xb4000051
@@ -24466,7 +24480,7 @@ ldr x16, [x16, #2600]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2608]
-bl _p_285
+bl _p_286
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -24564,7 +24578,7 @@ bl _p_23
 .word 0x9102c3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -24615,7 +24629,7 @@ bl _p_23
 .word 0x9101a3a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_282
+bl _p_283
 
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
@@ -24628,12 +24642,12 @@ bl _p_10
 .word 0xd28037e2
 .word 0xd2800902
 .word 0xd28037e3
-bl _p_287
+bl _p_288
 .word 0xf9407ba1
 .word 0xf9405ba2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -24650,7 +24664,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #448]
 .word 0xaa1703e1
-bl _p_289
+bl _p_290
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf9426e31
@@ -24668,7 +24682,7 @@ bl _p_289
 .word 0xf9405fa0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942ae31
 .word 0xb4000051
@@ -24776,7 +24790,7 @@ bl _p_23
 .word 0x9102c3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -24827,7 +24841,7 @@ bl _p_23
 .word 0x9101a3a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_282
+bl _p_283
 
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
@@ -24840,12 +24854,12 @@ bl _p_10
 .word 0xd28037e2
 .word 0xd2800902
 .word 0xd28037e3
-bl _p_287
+bl _p_288
 .word 0xf9407ba1
 .word 0xf9405ba2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -24858,7 +24872,7 @@ bl _p_288
 .word 0xf94023a0
 .word 0xaa1703e1
 .word 0xaa1703e1
-bl _p_291
+bl _p_292
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf9426231
@@ -24876,7 +24890,7 @@ bl _p_291
 .word 0xf9405fa0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942a231
 .word 0xb4000051
@@ -24984,7 +24998,7 @@ bl _p_23
 .word 0x9102c3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -25035,7 +25049,7 @@ bl _p_23
 .word 0x9101a3a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_282
+bl _p_283
 
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
@@ -25048,12 +25062,12 @@ bl _p_10
 .word 0xd28037e2
 .word 0xd2800902
 .word 0xd28037e3
-bl _p_287
+bl _p_288
 .word 0xf9407ba1
 .word 0xf9405ba2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -25070,7 +25084,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #448]
 .word 0xaa1703e1
-bl _p_289
+bl _p_290
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf9426e31
@@ -25088,7 +25102,7 @@ bl _p_289
 .word 0xf9405fa0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942ae31
 .word 0xb4000051
@@ -25196,7 +25210,7 @@ bl _p_23
 .word 0x9102c3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf9007ba0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -25247,7 +25261,7 @@ bl _p_23
 .word 0x9101a3a0
 .word 0xd2800902
 .word 0xd2800902
-bl _p_282
+bl _p_283
 
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
@@ -25260,12 +25274,12 @@ bl _p_10
 .word 0xd28037e2
 .word 0xd2800902
 .word 0xd28037e3
-bl _p_287
+bl _p_288
 .word 0xf9407ba1
 .word 0xf9405ba2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -25278,7 +25292,7 @@ bl _p_288
 .word 0xf94023a0
 .word 0xaa1703e1
 .word 0xaa1703e1
-bl _p_291
+bl _p_292
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf9426231
@@ -25296,7 +25310,7 @@ bl _p_291
 .word 0xf9405fa0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942a231
 .word 0xb4000051
@@ -25443,7 +25457,7 @@ bl _p_32
 .word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_278
+bl _p_279
 .loc 16 315 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -25454,7 +25468,7 @@ bl _p_278
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102e3a0
-bl _p_279
+bl _p_280
 .loc 16 316 0
 .word 0xf94013b1
 .word 0xf941f631
@@ -25462,7 +25476,7 @@ bl _p_279
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_292
+bl _p_293
 .word 0xf94013b1
 .word 0xf9421231
 .word 0xb4000051
@@ -25476,7 +25490,7 @@ bl _p_292
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102e3a0
-bl _p_281
+bl _p_282
 .word 0xf94013b1
 .word 0xf9424631
 .word 0xb4000051
@@ -25616,7 +25630,7 @@ bl _p_32
 .word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_278
+bl _p_279
 .loc 16 315 0
 .word 0xf94017b1
 .word 0xf9400231
@@ -25627,7 +25641,7 @@ bl _p_278
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102e3a0
-bl _p_279
+bl _p_280
 .loc 16 316 0
 .word 0xf94013b1
 .word 0xf941f631
@@ -25635,7 +25649,7 @@ bl _p_279
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_293
+bl _p_294
 .word 0xf94013b1
 .word 0xf9421231
 .word 0xb4000051
@@ -25649,7 +25663,7 @@ bl _p_293
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9102e3a0
-bl _p_281
+bl _p_282
 .word 0xf94013b1
 .word 0xf9424631
 .word 0xb4000051
@@ -25691,7 +25705,7 @@ ldr x16, [x16, #2680]
 .word 0xf9400a11
 .word 0xf90027b1
 .word 0xf9403fa0
-bl _p_294
+bl _p_295
 .word 0xaa0003f9
 .word 0xb9800320
 .word 0x91003c10
@@ -25749,7 +25763,7 @@ bl _p_294
 .word 0xeb1e02ff
 .word 0x54000360
 .word 0xf9403fa0
-bl _p_295
+bl _p_296
 bl _p_3
 .word 0xb9802b21
 .word 0xaa1803e2
@@ -25761,7 +25775,7 @@ bl _p_3
 .word 0xf9400f20
 .word 0xf9401320
 .word 0xf9403fa0
-bl _p_296
+bl _p_297
 .word 0xaa0003e2
 .word 0xf94077a0
 .word 0xf9407ba1
@@ -25839,7 +25853,7 @@ bl _p_32
 .word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_278
+bl _p_279
 .loc 16 83 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -25850,7 +25864,7 @@ bl _p_278
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
-bl _p_279
+bl _p_280
 .loc 16 84 0
 .word 0xf94023b1
 .word 0xf942be31
@@ -25863,7 +25877,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2688]
 .word 0xf90073a0
 .word 0xf9403fa0
-bl _p_296
+bl _p_297
 .word 0xaa0003e2
 .word 0xf94073a1
 .word 0xd2800000
@@ -25871,7 +25885,7 @@ bl _p_296
 .word 0xaa1a03e0
 .word 0xd2800003
 .word 0xd2800004
-bl _p_297
+bl _p_298
 .word 0xf94023b1
 .word 0xf9430a31
 .word 0xb4000051
@@ -25885,7 +25899,7 @@ bl _p_297
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910283a0
-bl _p_281
+bl _p_282
 .word 0xf94023b1
 .word 0xf9433e31
 .word 0xb4000051
@@ -25944,7 +25958,7 @@ ldr x16, [x16, #2696]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2704]
-bl _p_298
+bl _p_299
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -25998,7 +26012,7 @@ ldr x16, [x16, #2712]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2720]
-bl _p_299
+bl _p_300
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -26039,7 +26053,7 @@ ldr x16, [x16, #2728]
 .word 0xf9400a11
 .word 0xf90037b1
 .word 0xf9403fa0
-bl _p_300
+bl _p_301
 .word 0xaa0003f7
 .word 0xb98002e0
 .word 0x91003c10
@@ -26094,7 +26108,7 @@ bl _p_180
 .word 0xaa1403e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_301
+bl _p_302
 .word 0xf9006ba0
 .word 0xf94033b1
 .word 0xf9413231
@@ -26113,7 +26127,7 @@ bl _p_301
 .word 0x910203a2
 .word 0xaa1303e0
 .word 0xaa1a03e1
-bl _p_286
+bl _p_287
 .word 0xf9006ba0
 .word 0xf94033b1
 .word 0xf9417e31
@@ -26160,7 +26174,7 @@ bl _p_180
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_301
+bl _p_302
 .word 0xf90087a0
 .word 0xf94033b1
 .word 0xf9422e31
@@ -26189,7 +26203,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2744]
 .word 0xf90083a0
 .word 0xf9403fa0
-bl _p_302
+bl _p_303
 .word 0xaa0003e2
 .word 0xf9407fa0
 .word 0xf94083a1
@@ -26197,7 +26211,7 @@ bl _p_302
 .word 0xd2800003
 .word 0xd2800003
 .word 0xd2800004
-bl _p_297
+bl _p_298
 .word 0xf9007ba0
 .word 0xf94033b1
 .word 0xf942ba31
@@ -26254,7 +26268,7 @@ bl _p_195
 .word 0xeb1e033f
 .word 0x54000380
 .word 0xf9403fa0
-bl _p_303
+bl _p_304
 bl _p_3
 .word 0xb9802ae1
 .word 0xaa1603e2
@@ -26266,7 +26280,7 @@ bl _p_3
 .word 0xf9400ee0
 .word 0xf94012e0
 .word 0xf9403fa0
-bl _p_302
+bl _p_303
 .word 0xaa0003e2
 .word 0xf9406fa0
 .word 0xf94073a1
@@ -26292,7 +26306,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xf9404ba0
 .word 0xf9404fa1
 .word 0xd2800003
-bl _p_288
+bl _p_289
 .loc 16 177 0
 .word 0xf94037b1
 .word 0xf9400231
@@ -26311,7 +26325,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2752]
 .word 0xf9006fa0
 .word 0xf9403fa0
-bl _p_304
+bl _p_305
 .word 0xaa0003e2
 .word 0xf9406ba0
 .word 0xf9406fa1
@@ -26321,7 +26335,7 @@ bl _p_304
 .word 0xd2800003
 .word 0xf9000095
 .word 0xd2800003
-bl _p_297
+bl _p_298
 .loc 16 179 0
 .word 0xf94033b1
 .word 0xf9449a31
@@ -26339,7 +26353,7 @@ bl _p_297
 .word 0xf94047a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf94033b1
 .word 0xf944da31
 .word 0xb4000051
@@ -26411,10 +26425,10 @@ ldr x16, [x16, #2760]
 .word 0x910143a0
 .word 0xf90047a0
 .word 0xf94033a0
-bl _p_305
+bl _p_306
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_306
+bl _p_307
 .word 0xaa0003e3
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -26457,7 +26471,7 @@ Lme_dc:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
 .loc 17 131 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -26718,10 +26732,10 @@ ldr x16, [x16, #2800]
 .word 0x910143a0
 .word 0xf90047a0
 .word 0xf94033a0
-bl _p_307
+bl _p_308
 .word 0xf90053a0
 .word 0xf94033a0
-bl _p_308
+bl _p_309
 .word 0xaa0003e3
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -27056,7 +27070,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1803e0
-bl _p_309
+bl _p_310
 .word 0xf9006ba0
 .word 0xf9402bb1
 .word 0xf940ea31
@@ -27075,7 +27089,7 @@ bl _p_309
 .word 0x910263a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf9006ba0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -27107,7 +27121,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1803e0
-bl _p_309
+bl _p_310
 .word 0xf9006fa0
 .word 0xf9402bb1
 .word 0xf941aa31
@@ -27148,12 +27162,12 @@ bl _p_10
 .word 0xd28005e2
 .word 0xd2800602
 .word 0xd28005e3
-bl _p_287
+bl _p_288
 .word 0xf9406ba1
 .word 0xf9404fa2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -27170,7 +27184,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #344]
 .word 0xaa1703e1
-bl _p_310
+bl _p_311
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf9429231
@@ -27188,7 +27202,7 @@ bl _p_310
 .word 0xf94053a0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942d231
 .word 0xb4000051
@@ -27510,7 +27524,7 @@ bl _p_116
 .word 0xaa1a03e5
 .word 0xd2800006
 .word 0xd2800007
-bl _p_311
+bl _p_312
 .loc 11 325 0
 .word 0xf94023b1
 .word 0xf940f631
@@ -27590,7 +27604,7 @@ ldr x16, [x16, #2904]
 .word 0xaa1403e0
 .word 0x9101c3a3
 .word 0xf9403ba3
-bl _p_312
+bl _p_313
 .loc 11 336 0
 .word 0xf9402fb1
 .word 0xf940ba31
@@ -27678,15 +27692,15 @@ bl _p_120
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf9003ba0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -27777,15 +27791,15 @@ bl _p_120
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf90043a0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -27856,9 +27870,9 @@ ldr x16, [x16, #2928]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2878f40
+.word 0xd287e820
 .word 0xf2a00020
-.word 0xd2878f40
+.word 0xd287e820
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -27880,9 +27894,9 @@ bl _p_32
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -27906,15 +27920,15 @@ bl _p_32
 .word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
-.word 0xd28776a0
+.word 0xd287cf80
 .word 0xf2a00020
 bl _p_121
 .word 0xf90043a0
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
-.word 0xd2877aa0
+.word 0xd287d380
 .word 0xf2a00020
 bl _p_121
 bl _p_122
@@ -27966,7 +27980,7 @@ bl _p_10
 .word 0x9101c3a3
 .word 0xf9403ba3
 .word 0xaa1903e6
-bl _p_313
+bl _p_314
 .word 0xf9402fb1
 .word 0xf9424631
 .word 0xb4000051
@@ -28222,7 +28236,7 @@ ldr x16, [x16, #2952]
 .word 0xaa1a03e0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_314
+bl _p_315
 .word 0xf90033a0
 .word 0x53001c00
 .word 0xf9401bb1
@@ -28324,7 +28338,7 @@ bl _p_131
 .word 0xf90033a0
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_315
+bl _p_316
 .word 0xf94033be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -28709,7 +28723,7 @@ ldr x16, [x16, #2992]
 .word 0x910103a1
 .word 0xf94023a1
 .word 0xd2800002
-bl _p_316
+bl _p_317
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -29064,7 +29078,7 @@ ldr x16, [x16, #3056]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3064]
-bl _p_317
+bl _p_318
 .word 0x910123a0
 .word 0x910103a0
 .word 0xf94027a0
@@ -29126,7 +29140,7 @@ ldr x16, [x16, #3072]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3080]
-bl _p_318
+bl _p_319
 .word 0x910163a0
 .word 0x910123a0
 .word 0xf9402fa0
@@ -29216,7 +29230,7 @@ bl _p_153
 .word 0x9100e3a3
 .word 0xf9401fa3
 .word 0xd2800004
-bl _p_319
+bl _p_320
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940f231
@@ -29285,7 +29299,7 @@ ldr x16, [x16, #3096]
 .word 0x910103a3
 .word 0xf94023a3
 .word 0xd2800004
-bl _p_319
+bl _p_320
 .word 0xf90033a0
 .word 0xf94017b1
 .word 0xf940ce31
@@ -29351,7 +29365,7 @@ ldr x16, [x16, #3104]
 .word 0x910183a5
 .word 0x910163a3
 .word 0xf9402fa3
-bl _p_319
+bl _p_320
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf940c231
@@ -29412,9 +29426,9 @@ ldr x16, [x16, #3112]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879400
+.word 0xd287ece0
 .word 0xf2a00020
-.word 0xd2879400
+.word 0xd287ece0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -29436,9 +29450,9 @@ bl _p_32
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
-.word 0xd2879180
+.word 0xd287ea60
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -29484,7 +29498,7 @@ bl _p_10
 .word 0xaa1603e1
 .word 0xaa1703e2
 .word 0xd2800003
-bl _p_320
+bl _p_321
 .word 0xf9402bb1
 .word 0xf941b631
 .word 0xb4000051
@@ -29561,7 +29575,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #3136]
 bl _p_10
 .word 0xf9001ba0
-bl _p_321
+bl _p_322
 .word 0xf9400bb1
 .word 0xf9407631
 .word 0xb4000051
@@ -29726,7 +29740,7 @@ ldr x16, [x16, #3200]
 .word 0xd2800002
 .word 0xd2800003
 .word 0xd2800004
-bl _p_322
+bl _p_323
 .word 0xf9400fb1
 .word 0xf940aa31
 .word 0xb4000051
@@ -29913,7 +29927,7 @@ ldr x15, [x16, #2936]
 .word 0xf9402fa2
 .word 0xaa1903e3
 .word 0xd2800004
-bl _p_323
+bl _p_324
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf940fe31
@@ -30136,7 +30150,7 @@ bl _p_175
 .word 0x9101a3a1
 .word 0xf94037a1
 .word 0xf940007e
-bl _p_316
+bl _p_317
 .word 0x53001c00
 .word 0xf9401fb1
 .word 0xf9431231
@@ -30167,7 +30181,7 @@ bl _p_316
 .word 0xf94047a1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_324
+bl _p_325
 .word 0xf9008ba0
 .word 0x53001c00
 .word 0xf9401fb1
@@ -30335,7 +30349,7 @@ bl _p_183
 .word 0x910163a1
 .word 0xf9402fa1
 .word 0xf940005e
-bl _p_314
+bl _p_315
 .word 0x53001c00
 .word 0xf9401fb1
 .word 0xf945fe31
@@ -30360,7 +30374,7 @@ bl _p_314
 .word 0x910143a1
 .word 0xf9402ba1
 .word 0xf940005e
-bl _p_325
+bl _p_326
 .word 0xf9401fb1
 .word 0xf9465a31
 .word 0xb4000051
@@ -30418,7 +30432,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3136]
 .word 0xd2800002
-bl _p_326
+bl _p_327
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9409e31
@@ -30472,7 +30486,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #3248]
 bl _p_10
 .word 0xf9005ba0
-bl _p_327
+bl _p_328
 .word 0xf94027b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -30508,9 +30522,9 @@ bl _p_12
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2879e00
+.word 0xd287f6e0
 .word 0xf2a00020
-.word 0xd2879e00
+.word 0xd287f6e0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -30544,9 +30558,9 @@ bl _p_32
 .word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd287a100
+.word 0xd287f9e0
 .word 0xf2a00020
-.word 0xd287a100
+.word 0xd287f9e0
 .word 0xf2a00020
 bl _p_121
 .word 0xaa0003e1
@@ -30587,7 +30601,7 @@ bl _p_10
 .word 0xf9005fa0
 .word 0xaa1903e1
 .word 0xaa1a03e2
-bl _p_328
+bl _p_329
 .word 0xf94027b1
 .word 0xf9424231
 .word 0xb4000051
@@ -30713,7 +30727,14 @@ bl _p_196
 .word 0xf9440a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2800020
+bl _p_197
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9442631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
 .word 0x34001400
 
 adrp x16, mono_aot_cameratest_got@PAGE+0
@@ -30721,9 +30742,9 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #3256]
 bl _p_10
 .word 0xf90077a0
-bl _p_329
+bl _p_330
 .word 0xf94027b1
-.word 0xf9443a31
+.word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
@@ -30737,7 +30758,7 @@ bl _p_12
 .word 0xf94073a0
 .loc 12 844 0
 .word 0xf94027b1
-.word 0xf9446e31
+.word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -30748,9 +30769,9 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #1896]
 bl _p_10
 .word 0xf9006fa0
-bl _p_199
+bl _p_200
 .word 0xf94027b1
-.word 0xf9449e31
+.word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -30762,7 +30783,7 @@ bl _p_12
 .word 0xf94067a0
 .loc 12 847 0
 .word 0xf94027b1
-.word 0xf944ca31
+.word 0xf944e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -30811,7 +30832,7 @@ ldr x0, [x16, #3280]
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf94027b1
-.word 0xf9457e31
+.word 0xf9459a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
@@ -30819,7 +30840,7 @@ ldr x0, [x16, #3280]
 .word 0xaa0003f4
 .loc 12 852 0
 .word 0xf94027b1
-.word 0xf9459a31
+.word 0xf945b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -30839,7 +30860,7 @@ ldr x15, [x16, #1920]
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf945e631
+.word 0xf9460231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -30848,11 +30869,11 @@ ldr x15, [x16, #1920]
 .word 0xf9400aa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_202
+bl _p_203
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9461a31
+.word 0xf9463631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -30863,7 +30884,7 @@ bl _p_202
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9464231
+.word 0xf9465e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -30880,9 +30901,9 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3136]
 .word 0xaa1403e0
 .word 0xd2800004
-bl _p_330
+bl _p_331
 .word 0xf94027b1
-.word 0xf9468a31
+.word 0xf946a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000038
@@ -30892,7 +30913,7 @@ bl _p_330
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf946ae31
+.word 0xf946ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -30941,7 +30962,7 @@ ldr x0, [x16, #3304]
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9476231
+.word 0xf9477e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -30952,7 +30973,7 @@ ldr x0, [x16, #3304]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9478a31
+.word 0xf947a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400006b
@@ -30960,14 +30981,14 @@ ldr x0, [x16, #3304]
 .word 0xf9403fa0
 .loc 12 869 0
 .word 0xf94027b1
-.word 0xf947a631
+.word 0xf947c231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_180
 .word 0x53001c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf947c231
+.word 0xf947de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -30978,7 +30999,7 @@ bl _p_180
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf947ea31
+.word 0xf9480631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -30990,7 +31011,7 @@ bl _p_181
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf9481a31
+.word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
@@ -31004,7 +31025,7 @@ bl _p_182
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9484e31
+.word 0xf9486a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -31019,7 +31040,7 @@ ldr x0, [x16, #1864]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9488231
+.word 0xf9489e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -31030,7 +31051,7 @@ bl _p_181
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf94027b1
-.word 0xf948ae31
+.word 0xf948ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
@@ -31041,7 +31062,7 @@ bl _p_183
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf948d631
+.word 0xf948f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -31056,32 +31077,32 @@ bl _p_183
 .word 0x910263a1
 .word 0xf9404fa1
 .word 0xf940005e
-bl _p_314
+bl _p_315
 .word 0x53001c00
 .word 0xf94027b1
-.word 0xf9491e31
+.word 0xf9493a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 12 879 0
 .word 0xf94027b1
-.word 0xf9492e31
+.word 0xf9494a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
-bl _p_208
+bl _p_209
 .loc 12 882 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9495631
+.word 0xf9497231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9401000
 .word 0xf94027b1
-.word 0xf9496e31
+.word 0xf9498a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94157b4
@@ -31458,7 +31479,7 @@ ldr x16, [x16, #3328]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_331
+bl _p_332
 .word 0xf94013b1
 .word 0xf9407231
 .word 0xb4000051
@@ -31527,7 +31548,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x0, [x16, #2936]
 bl _p_10
 .word 0xf90027a0
-bl _p_332
+bl _p_333
 .word 0xf94017b1
 .word 0xf940be31
 .word 0xb4000051
@@ -31626,7 +31647,7 @@ ldr x15, [x16, #2848]
 .word 0xaa1a03e0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_333
+bl _p_334
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf940da31
@@ -31729,7 +31750,7 @@ bl _p_183
 .word 0x910123a1
 .word 0xf94027a1
 .word 0xf940033e
-bl _p_314
+bl _p_315
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -31847,7 +31868,7 @@ ldr x15, [x16, #2848]
 .word 0xaa1903e0
 .word 0x910103a1
 .word 0xf94023a1
-bl _p_334
+bl _p_335
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -31943,7 +31964,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1903e0
-bl _p_309
+bl _p_310
 .word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf9412231
@@ -32003,7 +32024,7 @@ bl _p_175
 .word 0xf94037a1
 .word 0xaa1703e2
 .word 0xf940031e
-bl _p_316
+bl _p_317
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -32018,7 +32039,7 @@ bl _p_316
 .word 0xaa1803e0
 .word 0xaa1a03e1
 .word 0xf940031e
-bl _p_324
+bl _p_325
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -32134,7 +32155,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3392]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32211,7 +32232,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3432]
 .word 0xaa1403e0
-bl _p_336
+bl _p_337
 .word 0xf9009ba0
 .word 0xf94033b1
 .word 0xf941f631
@@ -32232,7 +32253,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3440]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32328,7 +32349,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3432]
 .word 0xaa1703e0
-bl _p_336
+bl _p_337
 .word 0xf9009ba0
 .word 0xf94033b1
 .word 0xf9439e31
@@ -32349,7 +32370,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3464]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32396,7 +32417,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3480]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32443,7 +32464,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3496]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32490,7 +32511,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3512]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32537,7 +32558,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3528]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32553,7 +32574,7 @@ bl _p_335
 .word 0xf90093a0
 .word 0x910463a0
 .word 0xd2800001
-bl _p_337
+bl _p_338
 .word 0x910463a0
 .word 0x910343a0
 .word 0xf9408fa0
@@ -32603,7 +32624,7 @@ ldr x2, [x16, #3536]
 .word 0x9102e3a2
 .word 0xf9405fa2
 .word 0xf94063a3
-bl _p_338
+bl _p_339
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32620,7 +32641,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3544]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32668,7 +32689,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3560]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32716,7 +32737,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3576]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32763,7 +32784,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3592]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32810,7 +32831,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3608]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32851,7 +32872,7 @@ ldr x2, [x16, #3616]
 .word 0x91004001
 .word 0xf9400801
 .word 0xd2800000
-bl _p_339
+bl _p_340
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32868,7 +32889,7 @@ ldr x0, [x16, #3384]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x1, [x16, #3624]
-bl _p_335
+bl _p_336
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32909,7 +32930,7 @@ ldr x2, [x16, #3632]
 .word 0x91004001
 .word 0xf9400801
 .word 0xd2800000
-bl _p_340
+bl _p_341
 .word 0x53001c00
 .word 0xf9009ba0
 .word 0xf94033b1
@@ -32975,7 +32996,7 @@ bl _p_10
 .word 0xf9009ba0
 .word 0x9101e3a1
 .word 0xf9403fa1
-bl _p_341
+bl _p_342
 .word 0xf94033b1
 .word 0xf94ce631
 .word 0xb4000051
@@ -33044,7 +33065,7 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3656]
 .word 0x9100a3a0
 .word 0xf94017a0
-bl _p_342
+bl _p_343
 .word 0xf90023a0
 .word 0xf9400bb1
 .word 0xf9409a31
@@ -33130,7 +33151,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1803e0
-bl _p_309
+bl _p_310
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf940ea31
@@ -33149,7 +33170,7 @@ bl _p_309
 .word 0x9102a3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -33181,7 +33202,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1803e0
-bl _p_309
+bl _p_310
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf941aa31
@@ -33226,12 +33247,12 @@ bl _p_10
 .word 0xd28017e2
 .word 0xd2800802
 .word 0xd28017e3
-bl _p_287
+bl _p_288
 .word 0xf94073a1
 .word 0xf94057a2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -33248,7 +33269,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #1344]
 .word 0xaa1703e1
-bl _p_343
+bl _p_344
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf942a231
@@ -33266,7 +33287,7 @@ bl _p_343
 .word 0xf9405ba0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942e231
 .word 0xb4000051
@@ -33355,7 +33376,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1803e0
-bl _p_309
+bl _p_310
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf940ea31
@@ -33374,7 +33395,7 @@ bl _p_309
 .word 0x9102a3a2
 .word 0xaa1403e0
 .word 0xaa1303e1
-bl _p_286
+bl _p_287
 .word 0xf90073a0
 .word 0xf9402bb1
 .word 0xf9413631
@@ -33406,7 +33427,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #2848]
 .word 0xaa1803e0
-bl _p_309
+bl _p_310
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf941aa31
@@ -33451,12 +33472,12 @@ bl _p_10
 .word 0xd28017e2
 .word 0xd2800802
 .word 0xd28017e3
-bl _p_287
+bl _p_288
 .word 0xf94073a1
 .word 0xf94057a2
 .word 0xaa1603e3
 .word 0xaa1803e0
-bl _p_288
+bl _p_289
 .loc 16 559 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -33473,7 +33494,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #1344]
 .word 0xaa1703e1
-bl _p_343
+bl _p_344
 .loc 16 561 0
 .word 0xf9402bb1
 .word 0xf942a231
@@ -33491,7 +33512,7 @@ bl _p_343
 .word 0xf9405ba0
 .word 0xd2800001
 .word 0xd2800001
-bl _p_290
+bl _p_291
 .word 0xf9402bb1
 .word 0xf942e231
 .word 0xb4000051
@@ -34040,7 +34061,7 @@ ldr x16, [x16, #3736]
 .word 0xd2800002
 .word 0xd2800022
 .word 0xd2800003
-bl _p_259
+bl _p_260
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -34088,7 +34109,7 @@ ldr x16, [x16, #3744]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_260
+bl _p_261
 .loc 13 358 0
 .word 0xf94017b1
 .word 0xf9407231
@@ -34100,7 +34121,7 @@ bl _p_260
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_344
+bl _p_345
 .word 0xf94027be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -34168,7 +34189,7 @@ ldr x16, [x16, #3752]
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3760]
-bl _p_345
+bl _p_346
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -34407,7 +34428,7 @@ ldr x16, [x16, #3792]
 .word 0x39402322
 .word 0xd2800003
 .word 0xd2800003
-bl _p_259
+bl _p_260
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -34456,7 +34477,7 @@ ldr x16, [x16, #3800]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_260
+bl _p_261
 .loc 13 536 0
 .word 0xf94017b1
 .word 0xf9407231
@@ -34468,7 +34489,7 @@ bl _p_260
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_344
+bl _p_345
 .word 0xf94027be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -35317,7 +35338,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3136]
 .word 0xd2800024
-bl _p_330
+bl _p_331
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -35398,7 +35419,7 @@ ldr x16, [x16, #3896]
 .word 0xf9400b21
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_202
+bl _p_203
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -35428,7 +35449,7 @@ adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x15, [x16, #3136]
 .word 0xd2800024
-bl _p_330
+bl _p_331
 .word 0xf94013b1
 .word 0xf940ee31
 .word 0xb4000051
@@ -35496,7 +35517,7 @@ bl _p_10
 .word 0xd2880003
 .word 0x9100e3a4
 .word 0xf9401fa4
-bl _p_346
+bl _p_347
 .word 0xf94013b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -36055,8 +36076,8 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
 .word 8320
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_12:
 adrp x16, mono_aot_cameratest_got@PAGE+0
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
@@ -37535,1210 +37556,1218 @@ add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
 .word 10530
-	.no_dead_strip plt__rgctx_fetch_40
-plt__rgctx_fetch_40:
+	.no_dead_strip plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5
+plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5:
 _p_197:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 10541
-	.no_dead_strip plt__rgctx_fetch_41
-plt__rgctx_fetch_41:
+.word 10533
+	.no_dead_strip plt__rgctx_fetch_40
+plt__rgctx_fetch_40:
 _p_198:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 10549
-	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
-plt_System_Threading_AtomicBoolean__ctor:
+.word 10544
+	.no_dead_strip plt__rgctx_fetch_41
+plt__rgctx_fetch_41:
 _p_199:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 10572
-	.no_dead_strip plt__rgctx_fetch_42
-plt__rgctx_fetch_42:
+.word 10552
+	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
+plt_System_Threading_AtomicBoolean__ctor:
 _p_200:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 10574
-	.no_dead_strip plt__rgctx_fetch_43
-plt__rgctx_fetch_43:
+.word 10575
+	.no_dead_strip plt__rgctx_fetch_42
+plt__rgctx_fetch_42:
 _p_201:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 10597
-	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
-plt_System_Threading_AtomicBoolean_TryRelaxedSet:
+.word 10577
+	.no_dead_strip plt__rgctx_fetch_43
+plt__rgctx_fetch_43:
 _p_202:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 10620
-	.no_dead_strip plt__rgctx_fetch_44
-plt__rgctx_fetch_44:
+.word 10600
+	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
+plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_203:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 10622
-	.no_dead_strip plt__rgctx_fetch_45
-plt__rgctx_fetch_45:
+.word 10623
+	.no_dead_strip plt__rgctx_fetch_44
+plt__rgctx_fetch_44:
 _p_204:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 10630
-	.no_dead_strip plt__rgctx_fetch_46
-plt__rgctx_fetch_46:
+.word 10625
+	.no_dead_strip plt__rgctx_fetch_45
+plt__rgctx_fetch_45:
 _p_205:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 10653
-	.no_dead_strip plt__rgctx_fetch_47
-plt__rgctx_fetch_47:
+.word 10633
+	.no_dead_strip plt__rgctx_fetch_46
+plt__rgctx_fetch_46:
 _p_206:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 10676
-	.no_dead_strip plt__rgctx_fetch_48
-plt__rgctx_fetch_48:
+.word 10656
+	.no_dead_strip plt__rgctx_fetch_47
+plt__rgctx_fetch_47:
 _p_207:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 10699
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
+.word 10679
+	.no_dead_strip plt__rgctx_fetch_48
+plt__rgctx_fetch_48:
 _p_208:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 10722
-	.no_dead_strip plt__rgctx_fetch_49
-plt__rgctx_fetch_49:
+.word 10702
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
 _p_209:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 10770
-	.no_dead_strip plt__rgctx_fetch_50
-plt__rgctx_fetch_50:
+.word 10725
+	.no_dead_strip plt__rgctx_fetch_49
+plt__rgctx_fetch_49:
 _p_210:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 10811
-	.no_dead_strip plt__rgctx_fetch_51
-plt__rgctx_fetch_51:
+.word 10773
+	.no_dead_strip plt__rgctx_fetch_50
+plt__rgctx_fetch_50:
 _p_211:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 10852
-	.no_dead_strip plt__rgctx_fetch_52
-plt__rgctx_fetch_52:
+.word 10814
+	.no_dead_strip plt__rgctx_fetch_51
+plt__rgctx_fetch_51:
 _p_212:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 10860
-	.no_dead_strip plt__rgctx_fetch_53
-plt__rgctx_fetch_53:
+.word 10855
+	.no_dead_strip plt__rgctx_fetch_52
+plt__rgctx_fetch_52:
 _p_213:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 10901
-	.no_dead_strip plt__rgctx_fetch_54
-plt__rgctx_fetch_54:
+.word 10863
+	.no_dead_strip plt__rgctx_fetch_53
+plt__rgctx_fetch_53:
 _p_214:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 10942
-	.no_dead_strip plt__rgctx_fetch_55
-plt__rgctx_fetch_55:
+.word 10904
+	.no_dead_strip plt__rgctx_fetch_54
+plt__rgctx_fetch_54:
 _p_215:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 10983
-	.no_dead_strip plt__rgctx_fetch_56
-plt__rgctx_fetch_56:
+.word 10945
+	.no_dead_strip plt__rgctx_fetch_55
+plt__rgctx_fetch_55:
 _p_216:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 11024
-	.no_dead_strip plt__rgctx_fetch_57
-plt__rgctx_fetch_57:
+.word 10986
+	.no_dead_strip plt__rgctx_fetch_56
+plt__rgctx_fetch_56:
 _p_217:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 11032
-	.no_dead_strip plt__rgctx_fetch_58
-plt__rgctx_fetch_58:
+.word 11027
+	.no_dead_strip plt__rgctx_fetch_57
+plt__rgctx_fetch_57:
 _p_218:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 11065
-	.no_dead_strip plt__rgctx_fetch_59
-plt__rgctx_fetch_59:
+.word 11035
+	.no_dead_strip plt__rgctx_fetch_58
+plt__rgctx_fetch_58:
 _p_219:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 11083
-	.no_dead_strip plt__rgctx_fetch_60
-plt__rgctx_fetch_60:
+.word 11068
+	.no_dead_strip plt__rgctx_fetch_59
+plt__rgctx_fetch_59:
 _p_220:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 11117
-	.no_dead_strip plt__rgctx_fetch_61
-plt__rgctx_fetch_61:
+.word 11086
+	.no_dead_strip plt__rgctx_fetch_60
+plt__rgctx_fetch_60:
 _p_221:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 11125
-	.no_dead_strip plt__rgctx_fetch_62
-plt__rgctx_fetch_62:
+.word 11120
+	.no_dead_strip plt__rgctx_fetch_61
+plt__rgctx_fetch_61:
 _p_222:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 11174
-	.no_dead_strip plt__rgctx_fetch_63
-plt__rgctx_fetch_63:
+.word 11128
+	.no_dead_strip plt__rgctx_fetch_62
+plt__rgctx_fetch_62:
 _p_223:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 11182
-	.no_dead_strip plt__rgctx_fetch_64
-plt__rgctx_fetch_64:
+.word 11177
+	.no_dead_strip plt__rgctx_fetch_63
+plt__rgctx_fetch_63:
 _p_224:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 11223
-	.no_dead_strip plt__rgctx_fetch_65
-plt__rgctx_fetch_65:
+.word 11185
+	.no_dead_strip plt__rgctx_fetch_64
+plt__rgctx_fetch_64:
 _p_225:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 11264
-	.no_dead_strip plt__rgctx_fetch_66
-plt__rgctx_fetch_66:
+.word 11226
+	.no_dead_strip plt__rgctx_fetch_65
+plt__rgctx_fetch_65:
 _p_226:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 11305
-	.no_dead_strip plt__rgctx_fetch_67
-plt__rgctx_fetch_67:
+.word 11267
+	.no_dead_strip plt__rgctx_fetch_66
+plt__rgctx_fetch_66:
 _p_227:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 11354
-	.no_dead_strip plt__rgctx_fetch_68
-plt__rgctx_fetch_68:
+.word 11308
+	.no_dead_strip plt__rgctx_fetch_67
+plt__rgctx_fetch_67:
 _p_228:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 11362
-	.no_dead_strip plt__rgctx_fetch_69
-plt__rgctx_fetch_69:
+.word 11357
+	.no_dead_strip plt__rgctx_fetch_68
+plt__rgctx_fetch_68:
 _p_229:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 11411
-	.no_dead_strip plt__rgctx_fetch_70
-plt__rgctx_fetch_70:
+.word 11365
+	.no_dead_strip plt__rgctx_fetch_69
+plt__rgctx_fetch_69:
 _p_230:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 11419
-	.no_dead_strip plt__rgctx_fetch_71
-plt__rgctx_fetch_71:
+.word 11414
+	.no_dead_strip plt__rgctx_fetch_70
+plt__rgctx_fetch_70:
 _p_231:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 11442
-	.no_dead_strip plt__rgctx_fetch_72
-plt__rgctx_fetch_72:
+.word 11422
+	.no_dead_strip plt__rgctx_fetch_71
+plt__rgctx_fetch_71:
 _p_232:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 11450
-	.no_dead_strip plt__rgctx_fetch_73
-plt__rgctx_fetch_73:
+.word 11445
+	.no_dead_strip plt__rgctx_fetch_72
+plt__rgctx_fetch_72:
 _p_233:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 11483
-	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
-plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
+.word 11453
+	.no_dead_strip plt__rgctx_fetch_73
+plt__rgctx_fetch_73:
 _p_234:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 11491
-	.no_dead_strip plt__rgctx_fetch_74
-plt__rgctx_fetch_74:
+.word 11486
+	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr
+plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_INT__ctor_object_intptr:
 _p_235:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 11531
-	.no_dead_strip plt__rgctx_fetch_75
-plt__rgctx_fetch_75:
+.word 11494
+	.no_dead_strip plt__rgctx_fetch_74
+plt__rgctx_fetch_74:
 _p_236:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 11557
-	.no_dead_strip plt__rgctx_fetch_76
-plt__rgctx_fetch_76:
+.word 11534
+	.no_dead_strip plt__rgctx_fetch_75
+plt__rgctx_fetch_75:
 _p_237:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 11606
-	.no_dead_strip plt__rgctx_fetch_77
-plt__rgctx_fetch_77:
+.word 11560
+	.no_dead_strip plt__rgctx_fetch_76
+plt__rgctx_fetch_76:
 _p_238:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 11614
-	.no_dead_strip plt__rgctx_fetch_78
-plt__rgctx_fetch_78:
+.word 11609
+	.no_dead_strip plt__rgctx_fetch_77
+plt__rgctx_fetch_77:
 _p_239:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 11655
-	.no_dead_strip plt__rgctx_fetch_79
-plt__rgctx_fetch_79:
+.word 11617
+	.no_dead_strip plt__rgctx_fetch_78
+plt__rgctx_fetch_78:
 _p_240:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 11663
-	.no_dead_strip plt__rgctx_fetch_80
-plt__rgctx_fetch_80:
+.word 11658
+	.no_dead_strip plt__rgctx_fetch_79
+plt__rgctx_fetch_79:
 _p_241:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 11686
-	.no_dead_strip plt__rgctx_fetch_81
-plt__rgctx_fetch_81:
+.word 11666
+	.no_dead_strip plt__rgctx_fetch_80
+plt__rgctx_fetch_80:
 _p_242:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 11709
-	.no_dead_strip plt__rgctx_fetch_82
-plt__rgctx_fetch_82:
+.word 11689
+	.no_dead_strip plt__rgctx_fetch_81
+plt__rgctx_fetch_81:
 _p_243:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 11732
-	.no_dead_strip plt__rgctx_fetch_83
-plt__rgctx_fetch_83:
+.word 11712
+	.no_dead_strip plt__rgctx_fetch_82
+plt__rgctx_fetch_82:
 _p_244:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 11773
-	.no_dead_strip plt__rgctx_fetch_84
-plt__rgctx_fetch_84:
+.word 11735
+	.no_dead_strip plt__rgctx_fetch_83
+plt__rgctx_fetch_83:
 _p_245:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 11781
-	.no_dead_strip plt__rgctx_fetch_85
-plt__rgctx_fetch_85:
+.word 11776
+	.no_dead_strip plt__rgctx_fetch_84
+plt__rgctx_fetch_84:
 _p_246:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 11830
-	.no_dead_strip plt__rgctx_fetch_86
-plt__rgctx_fetch_86:
+.word 11784
+	.no_dead_strip plt__rgctx_fetch_85
+plt__rgctx_fetch_85:
 _p_247:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 11838
-	.no_dead_strip plt__rgctx_fetch_87
-plt__rgctx_fetch_87:
+.word 11833
+	.no_dead_strip plt__rgctx_fetch_86
+plt__rgctx_fetch_86:
 _p_248:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 11861
-	.no_dead_strip plt__rgctx_fetch_88
-plt__rgctx_fetch_88:
+.word 11841
+	.no_dead_strip plt__rgctx_fetch_87
+plt__rgctx_fetch_87:
 _p_249:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 11869
-	.no_dead_strip plt__rgctx_fetch_89
-plt__rgctx_fetch_89:
+.word 11864
+	.no_dead_strip plt__rgctx_fetch_88
+plt__rgctx_fetch_88:
 _p_250:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 11900
-	.no_dead_strip plt__rgctx_fetch_90
-plt__rgctx_fetch_90:
+.word 11872
+	.no_dead_strip plt__rgctx_fetch_89
+plt__rgctx_fetch_89:
 _p_251:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 11908
-	.no_dead_strip plt__rgctx_fetch_91
-plt__rgctx_fetch_91:
+.word 11903
+	.no_dead_strip plt__rgctx_fetch_90
+plt__rgctx_fetch_90:
 _p_252:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 11931
-	.no_dead_strip plt__rgctx_fetch_92
-plt__rgctx_fetch_92:
+.word 11911
+	.no_dead_strip plt__rgctx_fetch_91
+plt__rgctx_fetch_91:
 _p_253:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 11954
-	.no_dead_strip plt__rgctx_fetch_93
-plt__rgctx_fetch_93:
+.word 11934
+	.no_dead_strip plt__rgctx_fetch_92
+plt__rgctx_fetch_92:
 _p_254:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 11977
-	.no_dead_strip plt__rgctx_fetch_94
-plt__rgctx_fetch_94:
+.word 11957
+	.no_dead_strip plt__rgctx_fetch_93
+plt__rgctx_fetch_93:
 _p_255:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 11985
-	.no_dead_strip plt__rgctx_fetch_95
-plt__rgctx_fetch_95:
+.word 11980
+	.no_dead_strip plt__rgctx_fetch_94
+plt__rgctx_fetch_94:
 _p_256:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 12008
-	.no_dead_strip plt__rgctx_fetch_96
-plt__rgctx_fetch_96:
+.word 11988
+	.no_dead_strip plt__rgctx_fetch_95
+plt__rgctx_fetch_95:
 _p_257:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 12031
-	.no_dead_strip plt__rgctx_fetch_97
-plt__rgctx_fetch_97:
+.word 12011
+	.no_dead_strip plt__rgctx_fetch_96
+plt__rgctx_fetch_96:
 _p_258:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 12054
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+.word 12034
+	.no_dead_strip plt__rgctx_fetch_97
+plt__rgctx_fetch_97:
 _p_259:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 12077
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+.word 12057
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_260:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
 .word 12080
-	.no_dead_strip plt__rgctx_fetch_98
-plt__rgctx_fetch_98:
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_261:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 12109
-	.no_dead_strip plt__rgctx_fetch_99
-plt__rgctx_fetch_99:
+.word 12083
+	.no_dead_strip plt__rgctx_fetch_98
+plt__rgctx_fetch_98:
 _p_262:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 12117
-	.no_dead_strip plt__rgctx_fetch_100
-plt__rgctx_fetch_100:
+.word 12112
+	.no_dead_strip plt__rgctx_fetch_99
+plt__rgctx_fetch_99:
 _p_263:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 12166
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+.word 12120
+	.no_dead_strip plt__rgctx_fetch_100
+plt__rgctx_fetch_100:
 _p_264:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 12174
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
+.word 12169
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_265:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 12193
-	.no_dead_strip plt__rgctx_fetch_101
-plt__rgctx_fetch_101:
+.word 12177
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
 _p_266:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 12213
-	.no_dead_strip plt__rgctx_fetch_102
-plt__rgctx_fetch_102:
+.word 12196
+	.no_dead_strip plt__rgctx_fetch_101
+plt__rgctx_fetch_101:
 _p_267:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 12254
-	.no_dead_strip plt__rgctx_fetch_103
-plt__rgctx_fetch_103:
+.word 12216
+	.no_dead_strip plt__rgctx_fetch_102
+plt__rgctx_fetch_102:
 _p_268:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 12295
-	.no_dead_strip plt_Xamarin_Forms_Command_1__c__DisplayClass0_0_System_Guid__ctor
-plt_Xamarin_Forms_Command_1__c__DisplayClass0_0_System_Guid__ctor:
+.word 12257
+	.no_dead_strip plt__rgctx_fetch_103
+plt__rgctx_fetch_103:
 _p_269:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 12318
-	.no_dead_strip plt_Xamarin_Forms_Command__ctor_System_Action_1_object
-plt_Xamarin_Forms_Command__ctor_System_Action_1_object:
+.word 12298
+	.no_dead_strip plt_Xamarin_Forms_Command_1__c__DisplayClass0_0_System_Guid__ctor
+plt_Xamarin_Forms_Command_1__c__DisplayClass0_0_System_Guid__ctor:
 _p_270:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 12337
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr
-plt__jit_icall_mono_helper_ldstr:
+.word 12321
+	.no_dead_strip plt_Xamarin_Forms_Command__ctor_System_Action_1_object
+plt_Xamarin_Forms_Command__ctor_System_Action_1_object:
 _p_271:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 12342
-	.no_dead_strip plt_Xamarin_Forms_Command_1__c__DisplayClass1_0_System_Guid__ctor
-plt_Xamarin_Forms_Command_1__c__DisplayClass1_0_System_Guid__ctor:
+.word 12340
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr
+plt__jit_icall_mono_helper_ldstr:
 _p_272:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 12362
-	.no_dead_strip plt_Xamarin_Forms_Command__ctor_System_Action_1_object_System_Func_2_object_bool
-plt_Xamarin_Forms_Command__ctor_System_Action_1_object_System_Func_2_object_bool:
+.word 12345
+	.no_dead_strip plt_Xamarin_Forms_Command_1__c__DisplayClass1_0_System_Guid__ctor
+plt_Xamarin_Forms_Command_1__c__DisplayClass1_0_System_Guid__ctor:
 _p_273:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 12381
-	.no_dead_strip plt_System_Nullable_GetUnderlyingType_System_Type
-plt_System_Nullable_GetUnderlyingType_System_Type:
+.word 12365
+	.no_dead_strip plt_Xamarin_Forms_Command__ctor_System_Action_1_object_System_Func_2_object_bool
+plt_Xamarin_Forms_Command__ctor_System_Action_1_object_System_Func_2_object_bool:
 _p_274:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 12386
-	.no_dead_strip plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type
-plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type:
+.word 12384
+	.no_dead_strip plt_System_Nullable_GetUnderlyingType_System_Type
+plt_System_Nullable_GetUnderlyingType_System_Type:
 _p_275:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
 .word 12389
-	.no_dead_strip plt_System_Type_get_IsValueType
-plt_System_Type_get_IsValueType:
+	.no_dead_strip plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type
+plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type:
 _p_276:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
 .word 12392
-	.no_dead_strip plt_Xamarin_Forms_Command_1_System_Guid_IsValidParameter_object
-plt_Xamarin_Forms_Command_1_System_Guid_IsValidParameter_object:
+	.no_dead_strip plt_System_Type_get_IsValueType
+plt_System_Type_get_IsValueType:
 _p_277:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
 .word 12395
-	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
-plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
+	.no_dead_strip plt_Xamarin_Forms_Command_1_System_Guid_IsValidParameter_object
+plt_Xamarin_Forms_Command_1_System_Guid_IsValidParameter_object:
 _p_278:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 12416
-	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
-plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
+.word 12398
+	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
+plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_279:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
 .word 12419
-	.no_dead_strip plt_cameratest_CameraHelpers__InitMediac__async0_MoveNext
-plt_cameratest_CameraHelpers__InitMediac__async0_MoveNext:
+	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
+plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_280:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
 .word 12422
-	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
-plt_System_Threading_ExecutionContextSwitcher_Undo:
+	.no_dead_strip plt_cameratest_CameraHelpers__InitMediac__async0_MoveNext
+plt_cameratest_CameraHelpers__InitMediac__async0_MoveNext:
 _p_281:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 12427
-	.no_dead_strip plt_string_memcpy_byte__byte__int
-plt_string_memcpy_byte__byte__int:
+.word 12425
+	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
+plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_282:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
 .word 12430
-	.no_dead_strip plt_cameratest_CameraHelpers__TakePictureFromCamerac__async1_MoveNext
-plt_cameratest_CameraHelpers__TakePictureFromCamerac__async1_MoveNext:
+	.no_dead_strip plt_string_memcpy_byte__byte__int
+plt_string_memcpy_byte__byte__int:
 _p_283:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
 .word 12433
-	.no_dead_strip plt_cameratest_CameraHelpers__PickPicturec__async2_MoveNext
-plt_cameratest_CameraHelpers__PickPicturec__async2_MoveNext:
+	.no_dead_strip plt_cameratest_CameraHelpers__TakePictureFromCamerac__async1_MoveNext
+plt_cameratest_CameraHelpers__TakePictureFromCamerac__async1_MoveNext:
 _p_284:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 12438
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_cameratest_CameraHelpers__InitMediac__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__cameratest_CameraHelpers__InitMediac__async0_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_cameratest_CameraHelpers__InitMediac__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__cameratest_CameraHelpers__InitMediac__async0_:
+.word 12436
+	.no_dead_strip plt_cameratest_CameraHelpers__PickPicturec__async2_MoveNext
+plt_cameratest_CameraHelpers__PickPicturec__async2_MoveNext:
 _p_285:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 12443
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+.word 12441
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_cameratest_CameraHelpers__InitMediac__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__cameratest_CameraHelpers__InitMediac__async0_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_cameratest_CameraHelpers__InitMediac__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__cameratest_CameraHelpers__InitMediac__async0_:
 _p_286:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 12470
-	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
-plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
+.word 12446
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_287:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
 .word 12473
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
+plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
 _p_288:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 12510
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_UnsafeOnCompleted_System_Action:
+.word 12476
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_289:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
 .word 12513
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_UnsafeOnCompleted_System_Action:
 _p_290:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 12534
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
+.word 12516
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_291:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
 .word 12537
-	.no_dead_strip plt_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_MoveNext
-plt_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_MoveNext:
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_292:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
 .word 12540
-	.no_dead_strip plt_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_MoveNext
-plt_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_MoveNext:
+	.no_dead_strip plt_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_MoveNext
+plt_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_MoveNext:
 _p_293:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 12545
-	.no_dead_strip plt__rgctx_fetch_104
-plt__rgctx_fetch_104:
+.word 12543
+	.no_dead_strip plt_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_MoveNext
+plt_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_MoveNext:
 _p_294:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 12568
-	.no_dead_strip plt__rgctx_fetch_105
-plt__rgctx_fetch_105:
+.word 12548
+	.no_dead_strip plt__rgctx_fetch_104
+plt__rgctx_fetch_104:
 _p_295:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 12614
-	.no_dead_strip plt__rgctx_fetch_106
-plt__rgctx_fetch_106:
+.word 12571
+	.no_dead_strip plt__rgctx_fetch_105
+plt__rgctx_fetch_105:
 _p_296:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 12622
-	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
-plt__jit_icall_mono_gsharedvt_constrained_call:
+.word 12617
+	.no_dead_strip plt__rgctx_fetch_106
+plt__rgctx_fetch_106:
 _p_297:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 12630
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_:
+.word 12625
+	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
+plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_298:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 12664
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecutePickCommandc__async1_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecutePickCommandc__async1_:
+.word 12633
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecuteCameraCommandc__async0_:
 _p_299:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 12691
-	.no_dead_strip plt__rgctx_fetch_107
-plt__rgctx_fetch_107:
+.word 12667
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecutePickCommandc__async1_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_cameratest_BaseGalleryImage__ExecutePickCommandc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage__cameratest_BaseGalleryImage__ExecutePickCommandc__async1_:
 _p_300:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 12739
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+.word 12694
+	.no_dead_strip plt__rgctx_fetch_107
+plt__rgctx_fetch_107:
 _p_301:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 12788
-	.no_dead_strip plt__rgctx_fetch_108
-plt__rgctx_fetch_108:
+.word 12742
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_302:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
 .word 12791
-	.no_dead_strip plt__rgctx_fetch_109
-plt__rgctx_fetch_109:
+	.no_dead_strip plt__rgctx_fetch_108
+plt__rgctx_fetch_108:
 _p_303:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 12799
-	.no_dead_strip plt__rgctx_fetch_110
-plt__rgctx_fetch_110:
+.word 12794
+	.no_dead_strip plt__rgctx_fetch_109
+plt__rgctx_fetch_109:
 _p_304:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 12807
-	.no_dead_strip plt__rgctx_fetch_111
-plt__rgctx_fetch_111:
+.word 12802
+	.no_dead_strip plt__rgctx_fetch_110
+plt__rgctx_fetch_110:
 _p_305:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 12841
-	.no_dead_strip plt__rgctx_fetch_112
-plt__rgctx_fetch_112:
+.word 12810
+	.no_dead_strip plt__rgctx_fetch_111
+plt__rgctx_fetch_111:
 _p_306:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 12849
-	.no_dead_strip plt__rgctx_fetch_113
-plt__rgctx_fetch_113:
+.word 12844
+	.no_dead_strip plt__rgctx_fetch_112
+plt__rgctx_fetch_112:
 _p_307:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 12898
-	.no_dead_strip plt__rgctx_fetch_114
-plt__rgctx_fetch_114:
+.word 12852
+	.no_dead_strip plt__rgctx_fetch_113
+plt__rgctx_fetch_113:
 _p_308:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 12906
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
+.word 12901
+	.no_dead_strip plt__rgctx_fetch_114
+plt__rgctx_fetch_114:
 _p_309:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 12929
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
+.word 12909
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_310:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 12948
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 12932
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
 _p_311:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 12968
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 12951
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_312:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 12987
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.word 12971
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_313:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 13006
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
+.word 12990
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_314:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 13025
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
+.word 13009
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_315:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 13044
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
+.word 13028
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_316:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 13063
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
+.word 13047
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_317:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 13082
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 13066
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_318:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 13101
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
+.word 13085
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_319:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 13120
-	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
+.word 13104
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
 _p_320:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 13139
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 13123
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
 _p_321:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 13158
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+.word 13142
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_322:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 13177
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.word 13161
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_323:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 13196
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
+.word 13180
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_324:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 13215
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
+.word 13199
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
 _p_325:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 13234
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
+.word 13218
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_326:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 13253
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 13237
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_327:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 13272
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+.word 13256
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_328:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 13291
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 13275
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_329:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 13310
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 13294
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_330:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 13329
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 13313
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_331:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 13348
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 13332
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_332:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
 .word 13351
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_333:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 13370
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
+.word 13354
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_334:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 13389
-	.no_dead_strip plt_System_Type_op_Equality_System_Type_System_Type
-plt_System_Type_op_Equality_System_Type_System_Type:
+.word 13373
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_335:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 13408
-	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
-plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
+.word 13392
+	.no_dead_strip plt_System_Type_op_Equality_System_Type_System_Type
+plt_System_Type_op_Equality_System_Type_System_Type:
 _p_336:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
 .word 13411
-	.no_dead_strip plt_System_Decimal__ctor_int
-plt_System_Decimal__ctor_int:
+	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
+plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
 _p_337:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 13430
-	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
-plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
+.word 13414
+	.no_dead_strip plt_System_Decimal__ctor_int
+plt_System_Decimal__ctor_int:
 _p_338:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
 .word 13433
-	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
-plt_intptr_op_Equality_intptr_intptr:
+	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
+plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
 _p_339:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
 .word 13436
-	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
-plt_uintptr_op_Equality_uintptr_uintptr:
+	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
+plt_intptr_op_Equality_intptr_intptr:
 _p_340:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
 .word 13439
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
+plt_uintptr_op_Equality_uintptr_uintptr:
 _p_341:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
 .word 13442
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_342:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 13461
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_UnsafeOnCompleted_System_Action:
+.word 13445
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_343:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 13480
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
+.word 13464
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_cameratest_GalleryImage_UnsafeOnCompleted_System_Action:
 _p_344:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 13501
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 13483
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
 _p_345:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 13520
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+.word 13504
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_346:
 adrp x16, mono_aot_cameratest_got@PAGE+4096
 add x16, x16, mono_aot_cameratest_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 13539
+.word 13523
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+_p_347:
+adrp x16, mono_aot_cameratest_got@PAGE+4096
+add x16, x16, mono_aot_cameratest_got@PAGEOFF
+ldr x16, [x16, #2592]
+br x16
+.word 13542
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_cameratest_got, 6688
+.lcomm mono_aot_cameratest_got, 6696
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -38769,7 +38798,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "31B2253D-3B74-43B6-B884-32870EC4423E"
+	.asciz "1ECF696B-B8A3-4C56-B817-1969796A782F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -38846,13 +38875,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 489,6688,347,305,70,923871743,0,61553
-	.long 128,8,8,10,0,15,71328,9768
+	.long 489,6696,348,305,70,923871743,0,61583
+	.long 128,8,8,10,0,15,71360,9768
 	.long 9032,7544,0,8360,8984,7704,0,5752
 	.long 448,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 59,17,198,76,166,121,57,247,182,30,237,127,174,215,131,100
+	.byte 53,9,131,234,6,209,237,47,72,21,69,44,65,37,215,225
 	.globl _mono_aot_module_cameratest_info
 	.align 3
 _mono_aot_module_cameratest_info:

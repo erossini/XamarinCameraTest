@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 13:52:20 EDT 2017)"
+	.asciz "Mono AOT Compiler 4.8.0 (tarball Tue Mar 28 00:37:47 EDT 2017)"
 	.asciz "System.ServiceModel.Internals.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip System_Runtime_CallbackException__ctor
 System_Runtime_CallbackException__ctor:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/CallbackException.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/CallbackException.cs"
 .loc 1 13 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -178,7 +178,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_DiagnosticsEventProvider__ctor_System_Guid
 System_Runtime_Diagnostics_DiagnosticsEventProvider__ctor_System_Guid:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticEventProvider.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticEventProvider.cs"
 .loc 2 64 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -774,7 +774,7 @@ Lme_11:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string
 System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceBase.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceBase.cs"
 .loc 3 30 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -2317,7 +2317,7 @@ Lme_33:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string
 System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceSource.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceSource.cs"
 .loc 5 14 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -2335,7 +2335,7 @@ Lme_34:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_DictionaryTraceRecord__ctor_System_Collections_IDictionary
 System_Runtime_Diagnostics_DictionaryTraceRecord__ctor_System_Collections_IDictionary:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DictionaryTraceRecord.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DictionaryTraceRecord.cs"
 .loc 6 16 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -2532,7 +2532,7 @@ Lme_36:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_EtwDiagnosticTrace__cctor
 System_Runtime_Diagnostics_EtwDiagnosticTrace__cctor:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwDiagnosticTrace.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwDiagnosticTrace.cs"
 .loc 7 33 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -5967,7 +5967,7 @@ Lme_5a:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid
 System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwProvider.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwProvider.cs"
 .loc 8 27 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6461,7 +6461,7 @@ LDIFF_SYM3=ut_end - ut_99
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long
 System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventDescriptor.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventDescriptor.cs"
 .loc 9 38 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -6874,7 +6874,7 @@ Lme_6b:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_EventLogger__ctor
 System_Runtime_Diagnostics_EventLogger__ctor:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventLogger.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventLogger.cs"
 .loc 10 38 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -8225,7 +8225,7 @@ Lme_7a:
 	.align 4
 	.no_dead_strip System_Runtime_Diagnostics_StringTraceRecord__ctor_string_string
 System_Runtime_Diagnostics_StringTraceRecord__ctor_string_string:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/StringTraceRecord.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/StringTraceRecord.cs"
 .loc 11 17 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -8302,7 +8302,7 @@ Lme_7f:
 	.align 4
 	.no_dead_strip System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace
 System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/ExceptionTrace.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/ExceptionTrace.cs"
 .loc 12 28 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -8589,7 +8589,7 @@ Lme_85:
 	.align 4
 	.no_dead_strip System_Runtime_FatalException__ctor
 System_Runtime_FatalException__ctor:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/FatalException.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/FatalException.cs"
 .loc 13 13 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -8646,7 +8646,7 @@ Lme_88:
 	.align 4
 	.no_dead_strip System_Runtime_Fx_get_Exception
 System_Runtime_Fx_get_Exception:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Fx.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Fx.cs"
 .loc 14 53 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -9182,7 +9182,7 @@ Lme_91:
 	.align 4
 	.no_dead_strip System_Runtime_HashHelper_ComputeHash_byte__
 System_Runtime_HashHelper_ComputeHash_byte__:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/HashHelper.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/HashHelper.cs"
 .loc 15 13 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
@@ -9714,7 +9714,7 @@ Lme_92:
 	.align 4
 	.no_dead_strip System_Runtime_PartialTrustHelpers_HasEtwPermissions
 System_Runtime_PartialTrustHelpers_HasEtwPermissions:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/PartialTrustHelpers.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/PartialTrustHelpers.cs"
 .loc 16 134 0 prologue_end
 .word 0xa9bf7bfd
 .word 0x910003fd
@@ -9728,7 +9728,7 @@ Lme_93:
 	.align 4
 	.no_dead_strip System_Runtime_TraceLevelHelper_GetTraceEventType_System_Runtime_TraceEventLevel
 System_Runtime_TraceLevelHelper_GetTraceEventType_System_Runtime_TraceEventLevel:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TraceLevelHelper.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TraceLevelHelper.cs"
 .loc 17 47 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -9921,7 +9921,7 @@ b System_Runtime_TracePayload__ctor_string_string_string_string_string
 	.align 4
 	.no_dead_strip System_Runtime_TracePayload__ctor_string_string_string_string_string
 System_Runtime_TracePayload__ctor_string_string_string_string_string:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TracePayload.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TracePayload.cs"
 .loc 18 21 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -10047,7 +10047,7 @@ Lme_9b:
 	.align 4
 	.no_dead_strip System_Runtime_TraceCore_get_ResourceManager
 System_Runtime_TraceCore_get_ResourceManager:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/TraceCore.Designer.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/TraceCore.Designer.cs"
 .loc 19 40 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -13176,7 +13176,7 @@ Lme_bf:
 	.align 4
 	.no_dead_strip System_Runtime_InternalSR_EtwRegistrationFailed_object
 System_Runtime_InternalSR_EtwRegistrationFailed_object:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/System.ServiceModel.Internals/InternalSR.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/System.ServiceModel.Internals/InternalSR.cs"
 .loc 20 46 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -13196,7 +13196,7 @@ Lme_c0:
 	.align 4
 	.no_dead_strip System_Runtime_Interop_SafeEventLogWriteHandle_RegisterEventSource_string_string
 System_Runtime_Interop_SafeEventLogWriteHandle_RegisterEventSource_string_string:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/System.ServiceModel.Internals/MobileStubs.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/System.ServiceModel.Internals/MobileStubs.cs"
 .loc 21 23 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -13723,7 +13723,7 @@ Lme_d0:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/src/mono/mcs/class/corlib/System/Array.cs"
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.6.0.10/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 22 78 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -13803,7 +13803,7 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd29e7ac0
+.word 0xd29eb4c0
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -13826,7 +13826,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -13849,7 +13849,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -13924,7 +13924,7 @@ bl _p_236
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 22 99 0
-.word 0xd29e8840
+.word 0xd29ec240
 .word 0xf2a00020
 bl _p_235
 bl _p_237
@@ -14031,7 +14031,7 @@ bl _p_235
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 22 129 0
-.word 0xd29e8840
+.word 0xd29ec240
 .word 0xf2a00020
 bl _p_235
 bl _p_237
@@ -14041,7 +14041,7 @@ bl _p_237
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 22 131 0
-.word 0xd29e9340
+.word 0xd29ecd40
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -14050,7 +14050,7 @@ bl _p_235
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 22 135 0
-.word 0xd29e8840
+.word 0xd29ec240
 .word 0xf2a00020
 bl _p_235
 bl _p_237
@@ -14063,7 +14063,7 @@ bl _p_8
 .word 0xd284d200
 bl _p_235
 .word 0xf9002ba0
-.word 0xd29eaba0
+.word 0xd29ee5a0
 .word 0xf2a00020
 bl _p_235
 bl _p_237
@@ -14712,7 +14712,7 @@ bl _p_240
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 22 259 0
-.word 0xd29fb8c0
+.word 0xd29ff2c0
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -14721,7 +14721,7 @@ bl _p_235
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 22 261 0
-.word 0xd29fc380
+.word 0xd29ffd80
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -14868,7 +14868,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -14890,7 +14890,7 @@ System_Array_InternalArray__RemoveAt_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd29e80c0
+.word 0xd29ebac0
 .word 0xf2a00020
 bl _p_235
 .word 0xaa0003e1
@@ -14985,7 +14985,7 @@ bl _p_246
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 22 171 0
-.word 0xd29e8840
+.word 0xd29ec240
 .word 0xf2a00020
 bl _p_235
 bl _p_237
@@ -16257,8 +16257,8 @@ add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
 .word 3542
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_7:
 adrp x16, mono_aot_System_ServiceModel_Internals_got@PAGE+0
 add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
@@ -18366,7 +18366,7 @@ _mono_aot_file_info:
 	.long 360,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 151,247,178,83,114,211,111,192,77,78,180,22,38,11,77,94
+	.byte 204,127,12,237,89,193,167,112,243,99,2,19,174,165,48,59
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 3
 _mono_aot_module_System_ServiceModel_Internals_info:

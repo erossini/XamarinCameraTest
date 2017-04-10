@@ -11,7 +11,7 @@
 namespace cameratest {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/enricorossini/Projects/cameratest/cameratest/cameratestPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Enrico/Documents/XamarinCameraTest/cameratest/cameratestPage.xaml")]
     public partial class cameratestPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

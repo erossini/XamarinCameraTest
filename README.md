@@ -11,8 +11,8 @@ If you execute the code and you try to take some pictures, you can see the probl
 
 ## Bug 
 
-Version Number of Plugin: Plugin.Media 2.6.2
-Device Tested On: iPadAir, iPhone 6s, iPad Pro
+- Version Number of Plugin: Plugin.Media 2.6.2
+- Device Tested On: iPadAir, iPhone 6s, iPad Pro
 
 ### Expected Behavior
 Take unlimited number of pictures

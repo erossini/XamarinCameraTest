@@ -49,8 +49,6 @@ namespace cameratest
 				{
 					using (await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions()
 					{
-						PhotoSize = Plugin.Media.Abstractions.PhotoSize.Full,
-						CompressionQuality = 100,
 						Name = $"{_id.ToString()}.jpg",
 					}))
 					{

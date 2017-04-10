@@ -2,3 +2,12 @@
 *.dll
 
 *.cs
+
+*.dll
+
+*.mdb
+
+obj/
+bin/
+iOS/bin/
+iOS/obj/

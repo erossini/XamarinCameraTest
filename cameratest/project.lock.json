@@ -55,6 +55,8 @@
       "type": "package",
       "path": "xam.plugin.media/2.6.2",
       "files": [
+        "Xam.Plugin.Media.2.6.2.nupkg.sha512",
+        "Xam.Plugin.Media.nuspec",
         "lib/MonoAndroid10/Plugin.Media.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Media.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Media.Abstractions.xml",
@@ -105,9 +107,7 @@
         "lib/wpa81/Plugin.Media/CameraCaptureUIPage.xaml",
         "lib/wpa81/Plugin.Media/CameraCaptureUIPage.xbf",
         "lib/wpa81/Plugin.Media/Plugin.Media.xr.xml",
-        "readme.txt",
-        "xam.plugin.media.2.6.2.nupkg.sha512",
-        "xam.plugin.media.nuspec"
+        "readme.txt"
       ]
     },
     "Xamarin.Forms/2.3.4.224": {
@@ -279,6 +279,6 @@
   "tools": {},
   "projectFileToolGroups": {},
   "packageFolders": {
-    "/Users/Enrico/.nuget/packages/": {}
+    "/Users/enricorossini/.nuget/packages/": {}
   }
 }

@@ -9,6 +9,12 @@ If you execute the code and you try to take some pictures, you can see the probl
 - iPhone 6s 86
 - iPad Pro 9" 34
 
+
+## Updates
+- First update: 8 April 2017
+- 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers`
+- 11 April: add code fro taking photo with native code. In this case I receive alert from `ReceiveMemoryWarning`
+
 ## Bug 
 
 - Version Number of Plugin: Plugin.Media 2.6.2
@@ -30,7 +36,3 @@ I tried to check the code adding `Media.Plugin`, `Media.Plugin.Abstractions`, `M
 If I try to use `Xamarin Profiler` is also crashed with this error:
 
 ![screen shot 2017-04-09 at 01 20 07](https://cloud.githubusercontent.com/assets/9497415/24833511/e199c4f2-1cc2-11e7-97e3-96a3f1dcb53c.png)
-
-## Updates
-- First update: 8 April 2017
-- 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers`

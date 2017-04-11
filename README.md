@@ -1,4 +1,4 @@
-# XamarinCameraTest
+ # XamarinCameraTest
 Test project for taking photos
 
 If you want to replicate the error, I created a test project for you on GitHub. With my iPad Air or iPad Pro after about 30 photos (video [iPad Air](https://youtu.be/od0Qx5YdMo0) - [iPad Pro](https://youtu.be/0IReKcFyPcc)). All devices are iOS ver. 10.3.1 and they have enough space to storage photos.
@@ -17,7 +17,7 @@ Generate and deploy with `Xcode` ver. 8.3.1 (8E1000a) on:
 
 ## Updates
 - First update: 8 April 2017
-- 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers`
+- 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers` and `Media.Plugin`
 - 11 April: add code for taking photo with native code. In this case I receive alert from `ReceiveMemoryWarning`. Open a [bug](https://bugzilla.xamarin.com/show_bug.cgi?id=55010).
 
 ## Bug 

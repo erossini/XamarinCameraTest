@@ -1,7 +1,7 @@
-# XamarinCameraTest
+ XamarinCameraTest
 Test project for taking photos
 
-I created a simple [project here](https://github.com/erossini/XamarinCameraTest). I recorded a short video for that on [YouTube](https://youtu.be/l1bo6dh5t7s).
+If you want to replicate the error, I created a test project for you on GitHub. With my iPad Air or iPad Pro after about 30 photos (video [iPad Air](https://youtu.be/od0Qx5YdMo0) - [iPad Pro](https://youtu.be/0IReKcFyPcc)). All devices are iOS ver. 10.3.1 and they have enough space to storage photos.
 
 If you execute the code and you try to take some pictures, you can see the problem after 20 pictures. The number of pictures depend from the device:
 

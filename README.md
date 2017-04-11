@@ -1,4 +1,4 @@
-# XamarinCameraTest
+Boo# XamarinCameraTest
 Test project for taking photos
 
 I created a simple [project here](https://github.com/erossini/XamarinCameraTest). I recorded a short video for that on [YouTube](https://youtu.be/l1bo6dh5t7s).
@@ -9,6 +9,11 @@ If you execute the code and you try to take some pictures, you can see the probl
 - iPhone 6s 86
 - iPad Pro 9" 34
 
+Generate code with Xcode on:
+
+- MacBook Air
+- iMac
+- MacBook Pro
 
 ## Updates
 - First update: 8 April 2017

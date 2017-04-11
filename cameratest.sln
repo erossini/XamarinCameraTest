@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cameratest", "cameratest\ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cameratest.iOS", "iOS\cameratest.iOS.csproj", "{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cameratesteasy.iOS", "iOS\cameratesteasy.iOS.csproj", "{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,17 +39,5 @@ Global
 		{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}.Debug|iPhone.Build.0 = Debug|iPhone
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Release|Any CPU.Build.0 = Release|iPhone
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Release|iPhone.ActiveCfg = Release|iPhone
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Release|iPhone.Build.0 = Release|iPhone
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{5ECEDBDC-A25A-4F66-B35F-155941D98E7F}.Debug|iPhone.Build.0 = Debug|iPhone
 	EndGlobalSection
 EndGlobal

@@ -3,11 +3,16 @@
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="CenterAndExpand">
 			<Label Text="Camera test" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontSize="Large" />
+			<Button Text="Add photo native" Clicked="CameraNativeClick" />
 			<Button Text="Add photo with MVVM" Command="{Binding CameraCommand}" IsEnabled="{Binding CanTakeNewPhoto}" />
 			<Button Text="Pick photo with MVVM" Command="{Binding PickCommand}" IsEnabled="{Binding CanTakeNewPhoto}" />
 			<Button Text="Add photo no MVVM" Clicked="StartCameraTapped" />
 			<Button Text="Pick photo no MVVM" Clicked="StartCameraTakeTapped" />
 			<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Number of picture taken native: " HorizontalTextAlignment="Center" />
+					<Label x:Name="CountNativeLabel" HorizontalTextAlignment="Center" />
+				</StackLayout>
 				<StackLayout Orientation="Horizontal">
 					<Label Text="Number of picture taken with MVVM: " HorizontalTextAlignment="Center" />
 					<Label Text="{Binding NumberOfImages}" HorizontalTextAlignment="Center" />

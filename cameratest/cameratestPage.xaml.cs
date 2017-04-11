@@ -7,6 +7,7 @@ namespace cameratest
 	public partial class cameratestPage : ContentPage
 	{
 		int count = 0;
+		int nativecount = 0;
 		cameratestViewModel vm = null;
 
 		public cameratestPage()
@@ -24,6 +25,13 @@ namespace cameratest
 				vm = new cameratestViewModel();
 				BindingContext = vm;
 			}
+		}
+
+		void CameraNativeClick(object sender, System.EventArgs args)
+		{
+			DependencyService.Get<ICamera>().TakePicture();
+			nativecount++;
+			CountNativeLabel.Text = $"{nativecount} times";
 		}
 
 		void UpdateCount()

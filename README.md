@@ -1,4 +1,4 @@
- XamarinCameraTest
+# XamarinCameraTest
 Test project for taking photos
 
 If you want to replicate the error, I created a test project for you on GitHub. With my iPad Air or iPad Pro after about 30 photos (video [iPad Air](https://youtu.be/od0Qx5YdMo0) - [iPad Pro](https://youtu.be/0IReKcFyPcc)). All devices are iOS ver. 10.3.1 and they have enough space to storage photos.
@@ -9,7 +9,7 @@ If you execute the code and you try to take some pictures, you can see the probl
 - iPhone 6s 86
 - iPad Pro 9" 34
 
-Generate code with Xcode on:
+Generate and deploy with `Xcode` ver. 8.3.1 (8E1000a) on:
 
 - MacBook Air
 - iMac

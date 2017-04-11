@@ -1,7 +1,7 @@
 # XamarinCameraTest
-Test project for PlugIn.Media
+Test project for taking photos
 
-I created a simple [project here](https://github.com/erossini/XamarinCameraTest). I recorded a short video for that on [YouTube](https://youtu.be/l1bo6dh5t7s).
+If you want to replicate the error, I created a test project for you on GitHub. With my iPad Air or iPad Pro after about 30 photos (video [iPad Air](https://youtu.be/od0Qx5YdMo0) - [iPad Pro](https://youtu.be/0IReKcFyPcc)). All devices are iOS ver. 10.3.1 and they have enough space to storage photos.
 
 If you execute the code and you try to take some pictures, you can see the problem after 20 pictures. The number of pictures depend from the device:
 
@@ -9,11 +9,17 @@ If you execute the code and you try to take some pictures, you can see the probl
 - iPhone 6s 86
 - iPad Pro 9" 34
 
+Generate and deploy with `Xcode` ver. 8.3.1 (8E1000a) on:
+
+- MacBook Air
+- iMac
+- MacBook Pro
 
 ## Updates
 - First update: 8 April 2017
-- 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers`
-- 11 April: add code fro taking photo with native code. In this case I receive alert from `ReceiveMemoryWarning`. Open a [bug](https://bugzilla.xamarin.com/show_bug.cgi?id=55010).
+- See my post on [StackOverflow](http://stackoverflow.com/questions/43301608/xamarin-forms-and-plugin-media-after-about-20-photos-something-crashes) and [Xamarin Forums](https://forums.xamarin.com/discussion/92808/xamarin-forms-and-plugin-media-after-about-20-photos-something-crashes)
+- 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers` and `Media.Plugin`
+- 11 April: add code for taking photo with native code. In this case I receive alert from `ReceiveMemoryWarning`. Open a [bug](https://bugzilla.xamarin.com/show_bug.cgi?id=55010).
 
 ## Bug 
 

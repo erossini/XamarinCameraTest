@@ -1,5 +1,5 @@
 # XamarinCameraTest
-Test project for PlugIn.Media
+Test project for taking photos
 
 I created a simple [project here](https://github.com/erossini/XamarinCameraTest). I recorded a short video for that on [YouTube](https://youtu.be/l1bo6dh5t7s).
 

@@ -13,7 +13,7 @@ If you execute the code and you try to take some pictures, you can see the probl
 ## Updates
 - First update: 8 April 2017
 - 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers`
-- 11 April: add code fro taking photo with native code
+- 11 April: add code fro taking photo with native code. In this case I receive alert from `ReceiveMemoryWarning`
 
 ## Bug 
 

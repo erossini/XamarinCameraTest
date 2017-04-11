@@ -17,7 +17,7 @@ Generate and deploy with `Xcode` ver. 8.3.1 (8E1000a) on:
 
 ## Updates
 - First update: 8 April 2017
-- See my post on [StackOverflow](http://stackoverflow.com/questions/43301608/xamarin-forms-and-plugin-media-after-about-20-photos-something-crashes)
+- See my post on [StackOverflow](http://stackoverflow.com/questions/43301608/xamarin-forms-and-plugin-media-after-about-20-photos-something-crashes) and [Xamarin Forums](https://forums.xamarin.com/discussion/92808/xamarin-forms-and-plugin-media-after-about-20-photos-something-crashes)
 - 10 April: add new project `cameratesteasy` without `Refractored.MvvmHelpers` and `Media.Plugin`
 - 11 April: add code for taking photo with native code. In this case I receive alert from `ReceiveMemoryWarning`. Open a [bug](https://bugzilla.xamarin.com/show_bug.cgi?id=55010).
 

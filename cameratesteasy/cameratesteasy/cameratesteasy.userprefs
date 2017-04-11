@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{FF8A92B2-D114-4690-8103-9DC74FDAC091}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="cameratesteasy/cameratesteasyPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="cameratesteasy/cameratesteasyPage.xaml" Line="14" Column="16" />
-      <File FileName="cameratesteasy/cameratesteasyPage.xaml.cs" Line="22" Column="3" />
+      <File FileName="cameratesteasy/cameratesteasyPage.xaml" Line="17" Column="19" />
+      <File FileName="cameratesteasy/cameratesteasyPage.xaml.cs" Line="19" Column="3" />
+      <File FileName="cameratesteasy/Interfaces/ICamera.cs" Line="10" Column="2" />
+      <File FileName="iOS/Dependencies/Camera_iOS.cs" Line="51" Column="3" />
+      <File FileName="iOS/AppDelegate.cs" Line="27" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="cameratesteasy" expanded="True" selected="True">
+          <Node name="cameratesteasy" expanded="True">
             <Node name="cameratesteasy" expanded="True">
-              <Node name="Packages" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
               <Node name="cameratesteasyPage.xaml" expanded="True" />
             </Node>
             <Node name="cameratesteasy.iOS" expanded="True">
-              <Node name="Packages" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="AppDelegate.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -26,5 +30,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.cameratesteasy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.23d6c22521480dd239dbfa26caa3897ccffd0f77" />
+  <MonoDevelop.Ide.ItemProperties.cameratesteasy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.0a5b08ac44143b4a8ac89698cba113cf27f64156" />
 </Properties>

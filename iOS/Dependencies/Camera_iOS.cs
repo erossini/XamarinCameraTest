@@ -52,6 +52,7 @@ namespace cameratest.iOS
 		public void TakePicture()
 		{
 			var rc = UIApplication.SharedApplication.KeyWindow.RootViewController;
+
 			TakePicture(rc, (obj) =>
 			{
 				var photo = obj.ValueForKey(new NSString("UIImagePickerControllerOriginalImage")) as UIImage;
@@ -69,7 +70,13 @@ namespace cameratest.iOS
 				{
 					Console.WriteLine("NOT saved as " + jpgFilename + " because" + err.LocalizedDescription);
 				}
+
+				imgData.Dispose();
+				jpgFilename = null;
+				photo.Dispose();
 			});
+
+			rc.Dispose();
 		}
 	}
 }

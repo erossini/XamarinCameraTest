@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{4EAEF4D5-94C6-45D0-BB05-5166CE61EB4F}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinCameraTest Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cameratest/BaseGalleryImage.cs">
     <Files>
       <File FileName="cameratest/Helpers/CameraHelpers.cs" Line="1" Column="1" />
-      <File FileName="cameratest/cameratestPage.xaml" Line="14" Column="37" />
+      <File FileName="cameratest/cameratestPage.xaml" Line="1" Column="1" />
       <File FileName="cameratest/cameratestPage.xaml.cs" Line="42" Column="3" />
       <File FileName="cameratest/cameratestViewModel.cs" Line="1" Column="1" />
-      <File FileName="cameratest/BaseGalleryImage.cs" Line="186" Column="40" />
-      <File FileName="iOS/Dependencies/Camera_iOS.cs" Line="75" Column="2" />
+      <File FileName="cameratest/BaseGalleryImage.cs" Line="19" Column="17" />
+      <File FileName="iOS/Dependencies/Camera_iOS.cs" Line="55" Column="4" />
       <File FileName="cameratest/Interfaces/ICamera.cs" Line="4" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="23" Column="44" />
-      <File FileName="XamarinCameraTest Status" />
+      <File FileName="iOS/AppDelegate.cs" Line="32" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +18,12 @@
               <Node name="Helpers" expanded="True" />
               <Node name="Interfaces" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="BaseGalleryImage.cs" selected="True" />
               <Node name="cameratestPage.xaml" expanded="True" />
             </Node>
             <Node name="cameratest.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
               <Node name="Dependencies" expanded="True" />
-              <Node name="AppDelegate.cs" selected="True" />
             </Node>
           </Node>
         </State>

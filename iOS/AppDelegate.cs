@@ -25,7 +25,7 @@ namespace cameratest.iOS
 			// this (MemoryWarningsHandler) is a helper that I created 
 			// to capture more info when a memory warning is raised. Things like (nav Stack, running time, etc)
 			GC.Collect();
-			Console.WriteLine("Memory Warning!");
+			Console.WriteLine("Memory Warning! GC.GetTotalMemory: " + GC.GetTotalMemory(true).ToString());
 			MessagingCenter.Send(new MemoryMessage(), "MemoryMessage");
 		}
 	}
